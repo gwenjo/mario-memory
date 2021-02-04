@@ -11,7 +11,10 @@ body {
     background: red;
 	color: white;
 }
+/*--------------------Nav------------------------*/
 
+
+/*--------------------Memory Game----------------*/
 .memory-game {
     width: 640px;
     height: 640px;
@@ -21,9 +24,10 @@ body {
     perspective: 1000px;
 }
 
+/*--------------------Cards---------------------*/
 .memory-card {
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+    width: 30%;
+    height: 40%;
     margin: 5px;
     position: relative;
     transform: scale(1);
@@ -55,3 +59,8 @@ body {
 .front-face {
     transform: rotateY(180deg);
 }
+/*--------------------Footer--------------------*/
+
+
+
+/*--------------------Media queries-------------*/
