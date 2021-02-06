@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 
 
 python3 -m http.server
@@ -64,7 +62,7 @@ During this process I modified the website several times and it doesn't look qui
     in the media section below this page.
 
 **[Adobe Color](https://color.adobe.com/nl/create/color-wheel)**
--  For the color selection i've used adobe color. [Click here](assets/documents/adobe-color.jpg)to see the colorpalet.
+-  For the color selection i've used adobe color. [Click here](assets/readme-docs/adobe-color.jpg) to see the colorpalet.
 
 **[W3School](https://www.w3schools.com/) + [Bootstrap](https://getbootstrap.com/)**
 
@@ -142,7 +140,7 @@ Front face cards
 -   James Frid (parrot.jpg)
 
 Back face cards
--   Takeshi Arai(feather.jpg)
+-   Takeshi Arai (feather.jpg)
 
 ### Acknowledgements
 
