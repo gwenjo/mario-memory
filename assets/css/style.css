@@ -13,7 +13,7 @@ body {
 /*------------------Dropdown------------------------*/
 
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 
@@ -67,7 +67,6 @@ body {
     flex-wrap: wrap;
     perspective: 1000px;
 }
-
 
 /*--------------------Modal----------------*/
 
