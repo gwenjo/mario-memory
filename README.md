@@ -9,22 +9,20 @@ python3 -m http.server
 [live site Memory](https://gwenjo.github.io/memory-game/) 
 
 
-
 ## User Experience (UX)
 ---
 
 User Story
 
 User’s goal:
-* As a user, 
-* As a user, 
-* As a user, 
-* As a user, 
+* As a user, i want to play an easy and simple game 
+* As a user, i want an easy navigate website
+* As a user, i want to have different levels to better my skills
+* As a user, i want to see how many moves it took the win the game.
 
 Site owner’s Goal:
-* As the site owner,
-* As the site owner, 
-* As the site owner, 
+* As the site owner, I want the user to have an easily accessible site.
+* As the site owner, i want the user to have fun with this game
 
 ## Wireframes   
 ---
@@ -36,6 +34,8 @@ The wireframes:
 ## Setup
 
 #### Features Left to Implement
+
+more levels
 
 
 ## Technologies Used
@@ -126,7 +126,7 @@ U can find information about cloning or downloading a repository [here](https://
 ### Media
 •	The photographs I used for this memory game were obtained from [Pexels](https://www.pexels.com/) I’ve used photo’s from different photographers such as;
 
-Front face cards
+Front Face cards
 -	Ethan Brooke (koala.jpg)
 -	Elianne Dipp (whale.jpg)
 -   Laura the Explaura (panda.jpg)
@@ -139,7 +139,7 @@ Front face cards
 -   Magda Ehlers (giraffe.jpg)
 -   James Frid (parrot.jpg)
 
-Back face cards
+Back Face cards
 -   Takeshi Arai (feather.jpg)
 
 ### Acknowledgements
