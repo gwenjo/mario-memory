@@ -52,6 +52,13 @@ body {
     color: black;
 }
 
+/*-----------------Modal-------------------*/
+
+.modal-body {
+  text-align: center;
+  width: 100%;
+}
+
 /*--------------------Memory Game----------------*/
 .memory-game {
     width: 640px;

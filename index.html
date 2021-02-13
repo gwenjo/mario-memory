@@ -39,15 +39,39 @@
 </header>
 <body>
 <!-- instruction Section -->
-
-
+<div class="container">
+    <div class="row">
+        <p><button type="button" class="btn btn-dark btn-sm"
+        data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button></p>
+    </div>
+</div>
 <!-- /.Instruction Section -->
-<vr>
-<hr>
+
 <!-- Modal Section -->
 <!-- For the button "Introduction" I used the "modal" code of bootstrap, I changed this to a only "Introduction" pop-up. 
         https://getbootstrap.com/docs/4.5/components/modal/ -->
-
+<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLabel">INSTRUCTIONS</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                You can start by turning the cards over. <br />
+                Remember the locations of the cards and make pairs of 2 of the same cards
+                You can increase the number of cards and the difficulty in the top left corner. <br >
+                By choosing EASY, MED and HARD. <br />
+                Good Luck!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- /.Modal Section -->
 
 <!-------SCORE BOARD code taken from fellow student https://github.com/karzuin/MS2/blob/master/index.html----->
