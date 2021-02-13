@@ -1,61 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Yusei Magic', sans-serif;
-    height: 100vh;
-    display: flex;
-    background:#A9A9A9;
-}
-/*------------------Dropdown------------------------*/
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
+  height: 100%;
+  width: 100%;
   margin: 0;
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 0;
+  font-size: 16px;
+  background-color: #a9a9a9;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: grey;
+/*------------------navbar------------------------*/
+.navbar-brand {
+	float: left;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+    
+	margin-left: 40px;
+	margin-top: 15px;
+	font-size: 1.7rem;
+	line-height: 30px;
+	background-color: transparent;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 93px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.navbar {
+    padding: 0px;
+    color: #fafafa;
 }
 
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.nav-link {
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+.nav-item-list {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	font-size: 1.05rem;
+	text-transform: uppercase;
+	background-color: transparent;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.nav-link a:hover {
+    color: black;
 }
 
 /*--------------------Memory Game----------------*/
