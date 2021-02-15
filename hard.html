@@ -33,12 +33,13 @@
     </nav>
 <!-- /.Dropdown Section-->
 </header>
+  
 <h3 class="text">-Two pairs of Animals-</h3>
 <body>
 <!-- instruction Section -->
 <div class="container">
     <div class="row">
-        <p><button type="button" class="btn btn-dark btn-sm"
+        <p><button type="button" class="btn btn-light btn-sm"
         data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button></p>
     </div>
 </div>
@@ -75,13 +76,14 @@
 <div class="board">
     <div class="moves">0</div>
     <div class="timer">00:00</div>
-    <button type="button" class="reset btn btn-dark btn-sm" onclick="startGame()">Reset</button>
+    <button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">Reset</button>
 </div>
 
 <!--Cards Section -->
 <!--I've used the card setup from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html and modified it for this game-->
-<section class="memory-game">
-    <div class="memory-card" data-frame="whale">
+<div class="container">
+    <section class="memory-game">
+        <div class="memory-card" data-frame="whale">
             <img class="front" src="assets/images/whale.jpg" alt="Whale" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
@@ -103,7 +105,7 @@
             <img class="front" src="assets/images/penguin.jpg" alt="Penguin" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
-        <div class="memory-card" data-frame="giraffe">
+        <div class="memory-card" data-frame="penguin">
             <img class="front" src="assets/images/penguin.jpg" alt="Penguin" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
@@ -116,6 +118,7 @@
             <img class="front" src="assets/images/parrot.jpg" alt="Parrot" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
+
         <div class="memory-card" data-frame="panda">
             <img class="front" src="assets/images/panda.jpg" alt="Panda" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
@@ -134,26 +137,27 @@
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
 
-        <div class="memory-card" data-frame="giraffe">
-            <img class="front" src="assets/images/giraffe.jpg" alt="Giraffe" />
-            <img class="back" src="assets/images/giraffe.jpg" alt="Feather" />
+        <div class="memory-card" data-frame="koala">
+            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
-        <div class="memory-card" data-frame="giraffe">
-            <img class="front" src="assets/images/giraffe.jpg" alt="Giraffe" />
+        <div class="memory-card" data-frame="koala">
+            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
     
-        <div class="memory-card" data-frame="koala">
-            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
+        <div class="memory-card" data-frame="fox">
+            <img class="front" src="assets/images/fox.jpg" alt="Fox" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
-        <div class="memory-card" data-frame="koala">
-            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
+        <div class="memory-card" data-frame="fox">
+            <img class="front" src="assets/images/fox.jpg" alt="Fox" />
             <img class="back" src="assets/images/feather.jpg" alt="Feather" />
         </div>
-    </div>
-    </section>
 
+    </section>
+</div>
+ 
 <!-----------Footer-------------->
 <p class="text">Gwendolyn Jo 2021</p>
 
