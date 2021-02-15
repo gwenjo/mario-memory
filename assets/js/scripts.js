@@ -33,7 +33,7 @@ function flipCard() {
 }
 
 function checkForMatch() {
-  if (firstCard.dataset.framework === secondCard.dataset.framework) {
+  if (firstCard.dataset.frame === secondCard.dataset.frame) {
     disableCards();
     return;
   }
@@ -75,11 +75,11 @@ cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // code taken from https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/
 let moves = 0;
-const counter = document.querySelector(".moves");
+let counter = document.querySelector('.moves');
 function moveCounter() {
     moves++;
-    counter.innerHTML = moves + " moves";
-}
+    counter.innerHTML = moves + ' moves'; 
+};
 
 let time = 0;
 let timer;
