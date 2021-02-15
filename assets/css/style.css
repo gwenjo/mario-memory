@@ -27,7 +27,7 @@ body {
 	margin-left: 20px;
 	margin-top: 15px;
 	font-size: 1.7rem;
-	color: #948eb7;
+	color: #fafafa;
 	line-height: 30px;
 	background-color: transparent;
 }
@@ -54,6 +54,7 @@ body {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #fafafa;
 }
 
 /*-----------------Modal------------*/
