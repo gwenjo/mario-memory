@@ -77,23 +77,14 @@ body {
     justify-content: center;
 }
 
-.col {
-    margin: auto;
-    display: flex;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 10px;
-    }
-
 .row {
+    text-align: center;
     margin: auto;
     display: flex;
     position: relative;
     vertical-align: center;
     width: 100%;
-    text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
     justify-content: center;
     vertical-align: center;
 }
@@ -135,25 +126,26 @@ body {
 
 /* styles.css code taken from https://github.com/karzuin/MS2/blob/master/assets/css/style.css and modified*/
 .board {
-  height: 50px;
-  width: fit-content;
-  margin: 0 auto;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 16px;
+    height: 50px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
 }
 
-.moves, .timer {
+.moves, 
+.timer {
+    text-align: center;
     margin: auto;
     display: flex;
     position: relative;
     width: 100%;
-    text-align: center;
     padding-bottom: 10px;
     font-family: "Yusei Magic", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .reset {
@@ -164,6 +156,7 @@ body {
     font-size: 16px;
 }
 
+/*-----------------Footer------------*/
 .text {
     text-align: center;
 }

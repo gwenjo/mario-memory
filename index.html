@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
-
-<header>
+    <body>
+        <header>
 <!-- Navbar Section -->
 <a class="navbar-brand"></a>
     <nav class="navbar menu navbar-expand-sm navbar-light bg-custom"> 
@@ -35,7 +35,7 @@
 </header>
   
 <h3 class="text">-Two pairs of Animals-</h3>
-<body>
+
 <!-- instruction Section -->
 <div class="container">
     <div class="row">
@@ -45,37 +45,12 @@
 </div>
 <!-- /.Instruction Section -->
 
-<!-- Modal Section -->
-<!-- For the button "Introduction" I used the "modal" code of bootstrap, I changed this to a only "Introduction" pop-up. 
-        https://getbootstrap.com/docs/4.5/components/modal/ -->
-<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header text-center">
-                <h3 class="modal-title" id="exampleModalLabel">INSTRUCTIONS</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-                Click on "START" to start the game. <br />
-                Remember the locations of the cards and make pairs of 2 of the same cards by turning 
-                them over. You can increase the number of cards and the difficulty in the drop-down 
-                list in the top left corner. <br >
-                Good Luck!
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /.Modal Section -->
+
 
 <!-------BOARD code taken from fellow student https://github.com/karzuin/MS2/blob/master/index.html----->
 <div class="board">
-    <div class="moves">0</div>
-    <div class="timer">00:00</div>
+    <div class="moves">0 moves</div>
+        <div class="timer">00:00</div>
     <button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">Reset</button>
 </div>
 
@@ -123,11 +98,41 @@
     </section>
 </div>
  
-<!-----------Footer-------------->
-<p class="text">Gwendolyn Jo 2021</p>
+<!--Footer Section -->
+<footer class="text"><p>GHC Jo|2021</p></footer>
+<!-- /.Footer Section -->
 
+<!-- Modal Section -->
+<!-- For the button "Introduction" I used the "modal" code of bootstrap, I changed this to a only "Introduction" pop-up. 
+        https://getbootstrap.com/docs/4.5/components/modal/ -->
+<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLabel">INSTRUCTIONS</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                Click on "START" to start the game. <br />
+                Remember the locations of the cards and make pairs of 2 of the same cards by turning 
+                them over. You can increase the number of cards and the difficulty in the drop-down 
+                list in the top left corner. <br >
+                Good Luck!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Modal Section -->
+
+<!-- Script Section -->
 <script src="assets/js/scripts.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</body>
+<!-- /.Scripts Section -->
+    </body>
 </html>
