@@ -5,104 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/a699de203e.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-
-    <title>Memory Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <title>| Memory Game |</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
-<!-- Dropdown Section -->
+
+<header>
+<!-- Navbar Section -->
+<a class="navbar-brand"></a>
+    <nav class="navbar menu navbar-expand-sm navbar-light bg-custom"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">EASY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="med.html">MED</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hard.html">HARD</a>
+                        </li>
+                    </ul>
+                </div>     
+    </nav>
+<!-- /.Dropdown Section-->
+</header>
+
 <body>
-    <div class="dropdown">
-        <button class="dropbtn">LEVELS<i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
-                <a href="index.html">EASY</a>
-                <a href="med.html">MED</a>
-                <a href="hard.html">HARD</a>
+<!-- instruction Section -->
+<div class="container">
+    <div class="row">
+        <p><button type="button" class="btn btn-dark btn-sm"
+        data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button></p>
+    </div>
+</div>
+<!-- /.Instruction Section -->
+
+<!-- Modal Section -->
+<!-- For the button "Introduction" I used the "modal" code of bootstrap, I changed this to a only "Introduction" pop-up. 
+        https://getbootstrap.com/docs/4.5/components/modal/ -->
+<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLabel">INSTRUCTIONS</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
             </div>
-    </div> 
-<!-- /.Dropdown Section-->
+            <div class="modal-body">
+                Click on "START" to start the game. <br />
+                Remember the locations of the cards and make pairs of 2 of the same cards by turning 
+                them over. You can increase the number of cards and the difficulty in the drop-down 
+                list in the top left corner. <br >
+                Good Luck!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Modal Section -->
 
-<!-- Cards Section -->
-<section class="memory-game">
-    <div class="memory-card" data-frame="alpaca">
-        <img class="front-face" src="assets/images/alpaca.jpg" alt="Alpaca" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="alpaca">
-        <img class="front-face" src="assets/images/alpaca.jpg" alt="Alpaca" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
+<!-------BOARD code taken from fellow student https://github.com/karzuin/MS2/blob/master/index.html----->
+<div class="board">
+    <div class="moves">0</div>
+    <div class="timer">00:00</div>
+    <button type="button" class="reset btn btn-dark btn-sm" onclick="startGame()">Reset</button>
+</div>
 
-    <div class="memory-card" data-frame="fox">
-        <img class="front-face" src="assets/images/fox.jpg/" alt="Fox" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="fox">
-        <img class="front-face" src="assets/images/fox.jpg/" alt="Fox" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
+<!--Cards Section -->
+<!--I've used the card setup from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html and modified it for this game-->
+<div class="container">
+    <section class="memory-game">
+        <div class="memory-card" data-frame="alpaca">
+            <img class="front" src="assets/images/alpaca.jpg" alt="Alpaca" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
+        <div class="memory-card" data-frame="lpaca">
+            <img class="front" src="assets/images/alpaca.jpg" alt="Alpaca" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
 
-    <div class="memory-card" data-frame="giraffe">
-        <img class="front-face" src="assets/images/giraffe.jpg" alt="Giraffe" />
-        <img class="back-face" src="assets/images/giraffe.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="giraffe">
-        <img class="front-face" src="assets/images/giraffe.jpg" alt="Giraffe" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
+        <div class="memory-card" data-frame="fox">
+            <img class="front" src="assets/images/fox.jpg" alt="Fox" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
+        <div class="memory-card" data-frame="fox">
+            <img class="front" src="assets/images/fox.jpg" alt="Fox" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
+
+        <div class="memory-card" data-frame="giraffe">
+            <img class="front" src="assets/images/giraffe.jpg" alt="Giraffe" />
+            <img class="back" src="assets/images/giraffe.jpg" alt="Feather" />
+        </div>
+        <div class="memory-card" data-frame="giraffe">
+            <img class="front" src="assets/images/giraffe.jpg" alt="Giraffe" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
     
-    <div class="memory-card" data-frame="koala">
-        <img class="front-face" src="assets/images/koala.jpg" alt="Koala" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="koala">
-        <img class="front-face" src="assets/images/koala.jpg" alt="Koala" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
+        <div class="memory-card" data-frame="koala">
+            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
+        <div class="memory-card" data-frame="koala">
+            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
+            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+        </div>
 
-    <div class="memory-card" data-frame="leopard">
-        <img class="front-face" src="assets/images/leopard.jpg" alt="Leopard" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="leopard">
-        <img class="front-face" src="assets/images/leopard.jpg" alt="Leopard" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
+        
+    </section>
+</div>
+ 
+<!-----------Footer-------------->
+<p class="text">Gwendolyn Jo 2021</p>
 
-    <div class="memory-card" data-frame="panda">
-        <img class="front-face" src="assets/images/panda.jpg" alt="Panda" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="panda">
-        <img class="front-face" src="assets/images/panda.jpg" alt="Panda" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="leopard">
-        <img class="front-face" src="assets/images/leopard.jpg" alt="Leopard" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="leopard">
-        <img class="front-face" src="assets/images/leopard.jpg" alt="Leopard" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-
-    <div class="memory-card" data-frame="panda">
-        <img class="front-face" src="assets/images/panda.jpg" alt="Panda" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    </div>
-    <div class="memory-card" data-frame="panda">
-        <img class="front-face" src="assets/images/panda.jpg" alt="Panda" />
-        <img class="back-face" src="assets/images/feather.jpg" alt="Feather" />
-    
-    </div>
-</section>
-<!-- /.Dropdown Section-->
-
-<!-- Footer Section -->
-<footer>
-    <div class="copyright"><i class="far fa-copyright symbol"></i> 2021 Gwendolyn Jo</div>
-</footer>
-<!-- /.Footer Section -->
-    <script src="scripts.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
