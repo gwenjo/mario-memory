@@ -18,7 +18,6 @@ body {
     background-color: #a9a9a9;
 }
 
-
 /*------------------navbar------------------------*/
 .navbar-brand {
 	float: left;
@@ -50,11 +49,12 @@ body {
 	background-color: transparent;
 }
 
+/*-----------------H3 title------------*/
+
 .h3, .text {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #fafafa;
 }
 
 /*-----------------Modal------------*/
