@@ -60,7 +60,7 @@ body {
 
 /*-----------------H3 title------------*/
 
-.h3, .text {
+.h3, .title-text {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -199,4 +199,18 @@ body {
 /*-----------------Footer------------*/
 .text {
     text-align: center;
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.footer-text {
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin : 0 auto;
+    padding: 210px 0;
+    padding-bottom: 0;
+	display : flex;
+    font-size: 14px;
 }
