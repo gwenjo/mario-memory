@@ -97,13 +97,3 @@ function reloadGame() {
 let startGame = function myFunction() {
   reloadGame();
 };
-
-if (count < 2) {
-        count++;
-    if (count === 1) {
-      firstGuess = clicked.parentNode.dataset.name;
-      clicked.parentNode.classList.add('selected');
-    } else {    
-      secondGuess = clicked.parentNode.dataset.name;
-      clicked.parentNode.classList.add('selected');
-    }}
