@@ -2,11 +2,9 @@
 
 let firstGuess = "";
 let secondGuess = "";
-let count = 0; 
 let previousTarget = null;
 let delay = 1800;
 let timerOn = true;
-let matchCount = 0;
 
 //Code taken from https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
