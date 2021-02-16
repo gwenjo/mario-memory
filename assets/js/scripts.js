@@ -1,7 +1,7 @@
 //Code taken from https://github.com/taniarascia/memory/blob/master/js/script.original.js
 
-let firstTry = "";
-let secondTry = "";
+let firstGuess = "";
+let secondGuess = "";
 let count = 0; 
 let previousTarget = null;
 let delay = 1800;
@@ -74,12 +74,6 @@ function resetBoard() {
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // code taken from https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/
-let moves = 0;
-let counter = document.querySelector('.moves');
-function moveCounter() {
-    moves++;
-    counter.innerHTML = moves + ' moves'; 
-};
 
 let time = 0;
 let timer;
@@ -107,13 +101,11 @@ let startGame = function myFunction() {
 };
 
 if (count < 2) {
-    count++;
-    moveCounter();
+        count++;
     if (count === 1) {
-        firstTry = clicked.parentNode.dataset.name;
-        clicked.parentNode.classList.add("selected");
-    } else {
-        secondTry = clicked.parentNode.dataset.name;
-        clicked.parentNode.classList.add("selected");
-        }
-    }
+      firstGuess = clicked.parentNode.dataset.name;
+      clicked.parentNode.classList.add('selected');
+    } else {    
+      secondGuess = clicked.parentNode.dataset.name;
+      clicked.parentNode.classList.add('selected');
+    }}
