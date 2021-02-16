@@ -39,20 +39,15 @@
 <!-- instruction Section -->
 <div class="container">
     <div class="row">
-        <p><button type="button" class="btn btn-light btn-sm"
-        data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button></p>
+        <p><button type="button" class="btn btn-light btn-md"  
+        data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button>   <button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">RESET <i class="fa fa-repeat"></i></button></p>
     </div>
+    
+    <section class="timer">
+        <div class="timer">00:00</div>
+    </section>
 </div>
 <!-- /.Instruction Section -->
-
-
-
-<!-------BOARD code taken from fellow student https://github.com/karzuin/MS2/blob/master/index.html----->
-<div class="board">
-    <div class="moves">0 moves</div>
-        <div class="timer">00:00</div>
-    <button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">Reset</button>
-</div>
 
 <!--Cards Section -->
 <!--I've used the card setup from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html and modified it for this game-->
@@ -99,7 +94,7 @@
 </div>
  
 <!--Footer Section -->
-<footer class="text"><p>GHC Jo|2021</p></footer>
+<footer class="text col-12"><p>GHC Jo|2021</p></footer>
 <!-- /.Footer Section -->
 
 <!-- Modal Section -->
