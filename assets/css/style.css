@@ -210,7 +210,7 @@ body {
     width: 100px;
     margin : 0 auto;
     padding: 210px 0;
-    padding-bottom: 0;
+    padding-bottom: 40px;
 	display : flex;
     font-size: 14px;
 }
