@@ -72,7 +72,7 @@ function resetBoard() {
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // code taken from https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/
-
+//timer
 let time = 0;
 let timer;
 function startTimer() {
