@@ -68,6 +68,11 @@ body {
 
 /*-----------------Modal------------*/
 
+.modal-title {
+    width: 100%;
+    text-align: center;
+}
+
 .modal-body {
     text-align: center;
     width: 100%;
