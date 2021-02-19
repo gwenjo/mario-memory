@@ -222,20 +222,43 @@ body {
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
     /*style rules for screens> 320px and ≤ 720px wide*/
 
 .h3, .title-text {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .memory-game {
-    height: 375px;
+    height: 710px;
     width: 100%;
     }
+
+.modal-title {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.modal-body {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-text {
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin : 0 auto;
+    padding: 240px 0;
+    padding-bottom: 40px;
+	display : flex;
+    font-size: 14px;
+}
 }
 
 @media only screen and (max-width: 375px) {
