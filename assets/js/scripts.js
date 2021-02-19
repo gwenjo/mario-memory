@@ -1,9 +1,3 @@
-//Code taken from https://github.com/taniarascia/memory/blob/master/js/script.original.js
-
-let firstGuess = "";
-let secondGuess = "";
-let previousTarget = null;
-let delay = 1800;
 let timerOn = true;
 
 //Code taken from https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
@@ -35,7 +29,6 @@ function checkForMatch() {
     disableCards();
     return;
   }
-
   unflipCards();
 }
 
@@ -78,22 +71,13 @@ let timer;
 function startTimer() {
     timer = setInterval(function () {
     time++;
-    minutes = ("0" + Math.floor(time / 60)).slice(-2);
-    seconds = ("0" + (time % 60)).slice(-2);
-    document.querySelector(".timer").innerHTML = minutes + ":" + seconds;
+   
   }, 1000);
 }
 
-let clicked = flipCard;
+
 if (timerOn === true) {
     startTimer();
     timerOn = true;
 }
-
-function reloadGame() {
-  window.location.reload();
-}
-
-let startGame = function myFunction() {
-  reloadGame();
-};
+ 
