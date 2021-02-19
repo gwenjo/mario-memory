@@ -219,5 +219,43 @@ body {
 @media only screen and (max-width: 1024px) 
     /*style rules for screens> 768px and ≤ 1024px wide*/
     
-@media only screen and (max-width: 414px) 
+@media only screen and (max-width: 414px) {
     /*style rules for screens> 320px and ≤ 720px wide*/
+
+.navbar-levels {
+	float: left;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-top: 0;
+	font-size: 1.7rem;
+	line-height: 20px;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.navbar {
+	padding: 10px 40px;
+}
+
+.nav-link {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.nav-item-list {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	font-size: 1.05rem;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.h3, .title-text {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+}
