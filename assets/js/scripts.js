@@ -25,18 +25,17 @@ function flipCard() {
 }
 
 function checkForMatch() {
-  if (firstCard.dataset.frame === secondCard.dataset.frame) {
+    if (firstCard.dataset.frame === secondCard.dataset.frame) {
     disableCards();
     return;
-  }
-  unflipCards();
+    }
+    unflipCards();
 }
 
 function disableCards() {
-  firstCard.removeEventListener("click", flipCard);
-  secondCard.removeEventListener("click", flipCard);
-
-  resetBoard();
+    firstCard.removeEventListener("click", flipCard);
+    secondCard.removeEventListener("click", flipCard);
+    resetBoard();
 }
 
 function unflipCards() {
@@ -46,20 +45,20 @@ function unflipCards() {
         firstCard.classList.remove("flip");
         secondCard.classList.remove("flip");
 
-      resetBoard();
-    }, 1800);
+        resetBoard();
+    },  1800);
 }
 
 function resetBoard() {
-  [hasFlippedCard, lockBoard] = [false, false];
-  [firstCard, secondCard] = [null, null];
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
 }
 
 (function shuffle() {
-  cards.forEach((card) => {
+    cards.forEach((card) => {
     let ramdomPos = Math.floor(Math.random() * 12);
     card.style.order = ramdomPos;
-  });
+    });
 })();
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
@@ -71,10 +70,8 @@ let timer;
 function startTimer() {
     timer = setInterval(function () {
     time++;
-   
-  }, 1000);
+    }, 1000);
 }
-
 
 if (timerOn === true) {
     startTimer();
