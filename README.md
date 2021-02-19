@@ -31,7 +31,7 @@ User’s goal:
 * As a user, I want to play an easy and simple game 
 * As a user, I want an easy navigate website
 * As a user, I want to have different levels to better my skills
-* As a user, I want to see how many moves it took the win the game.
+* As a user, I want to see a timer on the page, so i can see how much time i have been playing.
 
 Site owner’s Goal:
 * As the site owner, I want the user to have an easily accessible site.
