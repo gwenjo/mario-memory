@@ -219,11 +219,46 @@ body {
 
 /*-------------Media Queries-----------*/
 
-/*style rules for screens larger than 1024px wide*/
+/*style rules for screens larger than 1224px wide*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1224px) {
     /*style rules for screens> 768px and ≤ 1024px wide*/
     
+.h3, .title-text {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.memory-game {
+    height: 710px;
+    width: 100%;
+    }
+
+.modal-title {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.modal-body {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-text {
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin : 0 auto;
+    padding: 240px 0;
+    padding-bottom: 40px;
+	display : flex;
+    font-size: 14px;
+}
+}
 
 }
 
