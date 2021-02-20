@@ -1,18 +1,18 @@
 //Code taken from https://github.com/taniarascia/memory/blob/master/js/script.original.js
 
-var firstGuess = "";
-var secondGuess = "";
-var previousTarget = null;
-var delay = 1800;
-var timerOn = true;
+let firstGuess = "";
+let secondGuess = "";
+let previousTarget = null;
+let delay = 1300;
+let timerOn = true;
 
 //Code taken from https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
 const cards = document.querySelectorAll(".memory-card");
 
-var hasFlippedCard = false;
-var lockBoard = false;
-var firstCard, secondCard;
+let hasFlippedCard = false;
+let lockBoard = false;
+let firstCard, secondCard;
     
 function flipCard() {
     if (lockBoard) return;
@@ -21,22 +21,22 @@ function flipCard() {
 
     if (!hasFlippedCard) {
         hasFlippedCard = true;
-        firstCard = this;
+        firstCard = this; //first card
         return;
     }
 
-    secondCard = this;
+    secondCard = this; //second card
 
-    checkForMatch();
+    checkForMatch(); //calls function to see if the cards match
 }
 
 function checkForMatch() {
-  if (firstCard.dataset.frame === secondCard.dataset.frame) {
+    if (firstCard.dataset.frame === secondCard.dataset.frame) {
     disableCards();
     return;
-  }
+    }
 
-  unflipCards();
+    unflipCards();
 }
 
 function disableCards() {
@@ -47,14 +47,14 @@ function disableCards() {
 }
 
 function unflipCards() {
-    lockBoard = true;
-    setTimeout(
+    lockBoard = true; //prevents other clicks 
+    setTimeout( //used to keep the cards visiable for short time
     () => {
         firstCard.classList.remove("flip");
         secondCard.classList.remove("flip");
 
       resetBoard();
-    }, 1800);
+    }, 1300);
 }
 
 function resetBoard() {
@@ -73,18 +73,19 @@ cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // code taken from https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/
 
-var time = 0;
-var timer;
+let time = 0;
+let timer;
+
 function startTimer() {
     timer = setInterval(function () {
     time++;
     minutes = ("0" + Math.floor(time / 60)).slice(-2);
     seconds = ("0" + (time % 60)).slice(-2);
     document.querySelector(".timer").innerHTML = minutes + ":" + seconds;
-  }, 1000);
+    }, 1000);
 }
 
-var clicked = flipCard;
+let clicked = flipCard;
 if (timerOn === true) {
     startTimer();
     timerOn = true;
@@ -94,6 +95,6 @@ function reloadGame() {
   window.location.reload();
 }
 
-var startGame = function myFunction() {
+let startGame = function myFunction() {
   reloadGame();
 };
