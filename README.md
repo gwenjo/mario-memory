@@ -176,18 +176,18 @@ For the deployment of the Memory Game, I used Github pages. Follow the next step
 
 3.  Select ‘None’ in the dropdown
 
-<img src=" readme-documents/github-pages.png" width="60%" height="60%">
+<img src="readme-documents/github-pages.png" width="60%" height="60%">
 
 4.  Then select ‘master’ and “Save
 
-<img src=" readme-documents/github-selectbranch.png" width="60%" height="60%">
+<img src="readme-documents/github-selectbranch.png" width="60%" height="60%">
 
 5.  Now select ‘Branch: Master
-<img src=" readme-documents/github-save-master.png" width="60%" height="60%">
+<img src="readme-documents/github-save-master.png" width="60%" height="60%">
 
 6.  In the green bar you will find the URL: https://gwenjo.github.io/memory-game//
 
-<img src=" readme-documents/github-sitename.png" width="60%" height="60%">
+<img src="readme-documents/github-sitename.png" width="60%" height="60%">
 
 For the live version of the Memory Game! [Click here](https://gwenjo.github.io/memory-game/)
 
