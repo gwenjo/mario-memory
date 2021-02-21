@@ -2,6 +2,7 @@
 python3 -m http.server
 
 ## Memory Game
+
 ---
 This is a simple memory game; in this memory game the goal is to make as many pairs of cards as possible by turning over cards with the same picture.
 
@@ -41,7 +42,6 @@ Site owner’s Goal:
 I wanted to make a simple and above all easy game.
 You can play it at home but also when you are on the road. The game is fun for everyone whether they are young or old.
 
- 
 **Scope**
 
 The goal for me was that I have a user-friendly, simple and gentle on the eyes game. With simple colors such as black, gray and white.
@@ -65,6 +65,26 @@ Links to the wireframes can be found here:
 
 For the images I used random animal pictures made by different photographers.
 
+## Features
+
+###### Navigationbar:
+The navigation bar used here is about choosing different levels in the game. You can choose from EASY, MED, HARD.
+
+###### Header:
+All pages contain an instruction button to explain the game and a reset button to restart the game.
+
+###### Footer:
+In the footer you will find my initials and this year 2021
+
+###### Home/ EASY- Page:
+For the EASY page, the rows of the deck consist of 2 x 4 cards
+
+###### MED-Page:
+For the MED page, the rows of the deck consist of 3 x 4 cards
+
+###### Hard-Page:
+For the HARD page, the rows of the deck consist of 4 x 4 cards
+
 
 #### Features Left to Implement
 
@@ -77,12 +97,13 @@ Due to lack of time, I didn't get around to adding the following features to thi
 
 ## Technologies Used
 ---
-* HTML5 
-* CSS3
-* Github
-* Gitpod
-* Javascript
-* Bootstrap 4.5.3
+* HTML5 – I used HTML to create the layout.
+* CSS3 – I used CSS to style the layout.
+* JavaScript - I have used JavaScript to rotate the cards in the deck and run a timer.
+* Github – to create a repository.
+* Gitpod – for working in my repository.
+* Bootstrap – I have used bootstrap for my Navbar and popup modal.
+
 
 ### Tools used
 ---
