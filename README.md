@@ -24,7 +24,7 @@ Good Luck!
 
 ## User Experience (UX)
 ---
-
+<img src="readme-documents/mockup.jpg">
 **User Story**
 
 User’s goal:
