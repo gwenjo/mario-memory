@@ -154,6 +154,17 @@ For the typography I have used the Yusei Magic font with a backup font of Sans-s
 
 ### Color
 
+I used the Adobe color scheme to choose the colors for my game.
+
+<img src="readme-documents/adobe-color.jpg" width="60%" height="60%">
+
+For this game and to help you concentrate well, I have chosen colors that are gentle on the eyes.
+
+Body text: black
+
+Background: #a9a9a9
+
+
 ## Testing
 ---
 #### W3C URL Validator
@@ -223,4 +234,3 @@ Back Face cards
 - I want to thank my mentor Sinead O'Brien for always giving me good advice. I am so sad that you stopping mentoring for a while.
 - Special thanks to the Slack community. If I had any questions, I could always trust that my questions were answered.
 - I want to thank my friends and family who have viewed my website multiple times and have given me good criticism on my game.
-
