@@ -183,6 +183,7 @@ For the deployment of the Memory Game, I used Github pages. Follow the next step
 <img src="readme-documents/github-selectbranch.png" width="60%" height="60%">
 
 5.  Now select ‘Branch: Master
+
 <img src="readme-documents/github-save-master.png" width="60%" height="60%">
 
 6.  In the green bar you will find the URL: https://gwenjo.github.io/memory-game//
@@ -219,4 +220,7 @@ Back Face cards
 
 ### Acknowledgements
 
-- 
+- I want to thank my mentor Sinead O'Brien for always giving me good advice. I am so sad that you stopping mentoring for a while.
+- Special thanks to the Slack community. If I had any questions, I could always trust that my questions were answered.
+- I want to thank my friends and family who have viewed my website multiple times and have given me good criticism on my game.
+
