@@ -1,7 +1,7 @@
 
 python3 -m http.server
 
-## Memory Game
+## Two Pairs of Animals
 
 ---
 This is a simple memory game; in this memory game the goal is to make as many pairs of cards as possible by turning over cards with the same picture.
