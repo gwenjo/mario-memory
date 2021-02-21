@@ -191,6 +191,10 @@ This has been corrected and passed through the W3C CSS validator again. The page
 
 #### Lighthouse
 
+<img src="readme-documents/lighthouse-desktop.jpg" width="50%" height="50%">
+<img src="readme-documents/lighthouse-mobile.jpg" width="50%" height="50%">
+
+
 ## Deployment
 ---
 For the deployment of the Memory Game, I used Github pages. Follow the next steps to my URL:
