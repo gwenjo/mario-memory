@@ -167,19 +167,27 @@ For the typography I have used the Yusei Magic font with a backup font of Sans-s
 
 ## Deployment
 ---
-For the deployment of the Memory Game, I used Github pages. follow the next steps to my URL:
+For the deployment of the Memory Game, I used Github pages. Follow the next steps to my URL:
 
 1.  Log in to my GitHub account and find my repository (https://gwenjo.github.io/memory-game/), open the github page.
-2.  Click on Settings and find GitHub Pages (see photo’s below)
+2.  Click on Settings and scroll down till you find GitHub Pages (see photo’s below)
 
-<img src="assets/documents/github-pages.jpg">
+<img src="readme-documents/github-settings.png" width="60%" height="60%">
 
-<img src="assets/documents/github-sitename.jpg">
+3.  Select ‘None’ in the dropdown
 
-3.  Select ‘None’ in the dropdown 
+<img src=" readme-documents/github-pages.png" width="60%" height="60%">
+
 4.  Then select ‘master’ and “Save
+
+<img src=" readme-documents/github-selectbranch.png" width="60%" height="60%">
+
 5.  Now select ‘Branch: Master
+<img src=" readme-documents/github-save-master.png" width="60%" height="60%">
+
 6.  In the green bar you will find the URL: https://gwenjo.github.io/memory-game//
+
+<img src=" readme-documents/github-sitename.png" width="60%" height="60%">
 
 For the live version of the Memory Game! [Click here](https://gwenjo.github.io/memory-game/)
 
