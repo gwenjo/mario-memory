@@ -1,15 +1,14 @@
 
 python3 -m http.server
 
-
 ## Memory Game
 ---
 This is a simple memory game; in this memory game the goal is to make as many pairs of cards as possible by turning over cards with the same picture.
 
 To make the game more difficult you can choose a different level. You can choose from the following levels:
-*   Easy	- 2x4
-*   Med	    - 3x4
-*   Hard	- 4x4
+*   Easy    - 2x4
+*   Med     - 3x4
+*   Hard    - 4x4
 
 The images I use are of different animals.
 
@@ -25,30 +24,47 @@ Good Luck!
 ## User Experience (UX)
 ---
 
-User Story
+**User Story**
 
 User’s goal:
 * As a user, I want to play an easy and simple game 
 * As a user, I want an easy navigate website
 * As a user, I want to have different levels to better my skills
-* As a user, I want to see a timer on the page, so i can see how much time i have been playing.
+* As a user, I want to see a timer on the page, so I can see how much time I have been playing.
 
 Site owner’s Goal:
 * As the site owner, I want the user to have an easily accessible site.
 * As the site owner, I want the user to have fun with this game
 
-## Wireframes   
----
-With the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
+**Strategy**
 
-The wireframes: 
-An overview of the wireframes can be found [here]()
+I wanted to make a simple and above all easy game.
+You can play it at home but also when you are on the road. The game is fun for everyone whether they are young or old.
 
-## Setup
+ 
+**Scope**
 
-The website has three pages. These are also the 3 different levels that can be played EASY, MED and HARD.
-On each page there is a button for instruction. when you press it, a popup will appear with the instructions for the game
+The goal for me was that I have a user-friendly, simple and gentle on the eyes game. With simple colors such as black, gray and white.
+
+**Structure**
+
+The structure of this game is divided over three pages, on the homepage, where the game starts right with the level of EASY.
+On all pages, at the top left corner you can find the different levels that can be played. Consisting of EASY-MED and -HARD.
+You will also find a pop-up button on each page with instructions of the game. Next to this button is the Reset button. This allows you to shuffle the cards again and start a new game.
+
+**Skeleton**
+
+For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
+Links to the wireframes can be found here:
+
+*   [Desktop version]()
+*   [Ipad version]()
+*   [Mobile version]()
+
+**Surface**
+
 For the images I used random animal pictures made by different photographers.
+
 
 #### Features Left to Implement
 
