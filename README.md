@@ -68,9 +68,12 @@ For the images I used random animal pictures made by different photographers.
 
 #### Features Left to Implement
 
-*   Even more difficult levels
-*   Adding a scoreboard
-*   Submitting a name
+Due to lack of time, I didn't get around to adding the following features to this game. But I hope to implement the following points in the near future.
+
+*   Submitting a name: This way you can add your name to the game and compete with your friends.
+*   Score Board: So, users can see where they are ranked when they play against each other and for the possibility to see their score.
+*   Even more difficult levels to the game to challenge yourself or your friend.
+
 
 ## Technologies Used
 ---
