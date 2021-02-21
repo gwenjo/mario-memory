@@ -102,7 +102,7 @@ Due to lack of time, I didn't get around to adding the following features to thi
 * JavaScript - I have used JavaScript to rotate the cards in the deck and run a timer.
 * Github – to create a repository.
 * Gitpod – for working in my repository.
-* Bootstrap – I have used bootstrap for my Navbar and popup modal.
+* Bootstrap – I have used bootstrap for my popup modal.
 
 
 ### Tools used
@@ -110,29 +110,43 @@ Due to lack of time, I didn't get around to adding the following features to thi
 
 **[Balsamiq](https://balsamiq.com/)**
 -   Before I started the website, I used the Balsamiq software to set up my wireframe. <br>
-During this process I modified the website several times and it doesn't look quite the same as the wireframes.
 
 **[Google Fonts](https://fonts.google.com/)**
 -   I've used Google Fonts to select the font for my website.
 
 **[Pexels](https://pexels.com/)**
--   I've used photos from various photographers who posted photos on pexels.com. All the names of the photographers are listed in the media section below this page.
+-   The pictures of the different animals were taken by several photographers who posted photos on pexels.com. All names of the photographers are listed in the media section below this page.
+
+**[Resize It]( https://apps.apple.com/us/app/resize-it-image-resize/id844716779)**
+- I used an app on my phone to easily crop the photos to the correct size.
 
 **[Adobe Color](https://color.adobe.com/nl/create/color-wheel)**
--  For the color selection I've used adobe color. [Click here](assets/readme-docs/adobe-color.jpg) to see the color pallet.
+-  For the color selection I have used adobe color. [Click here](readme-documents/adobe-color.jpg) to see the color pallet.
 
-**[W3School](https://www.w3schools.com/) + [Bootstrap](https://getbootstrap.com/)**
+**[W3School](https://www.w3schools.com/)**
+-	For the navbar I used W3schools.
+
+**[Bootstrap](https://getbootstrap.com/)**
+-	For the popup modal I used Bootstrap.
 
 **[Css Beautifier](https://www.freeformatter.com/css-beautifier.html)**
+-   I used this online tool for formatting my CSS code.
 
 **[Am I Responsive Design](http://ami.responsivedesign.is)**
--   For my mockup in my readme file I used Am I Responsive Design.
+-   For the mockup in the beginning of my readme file I used Am I Responsive Design.
+
+**[W3C HTML Validator](https://validator.w3.org/)**
+-   I used this tool to validate my HTML code.
+
+**[W3C CSS Validator](http://jigsaw.w3.org/css-validator/)**
+-    I used this tool to validate my CSS code.
 
 **[Dillinger](https://dillinger.io/)**
 -   I used dillenger to make my README file more organized.
 
 **[Wave Webaim](https://wave.webaim.org/)**
-I used webaim to check the color contrast of my website.
+For the correct contrast of my website I used webaim to check the color.
+
 
 ### Typography
 
