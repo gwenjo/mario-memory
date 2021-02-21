@@ -167,11 +167,26 @@ Background: #a9a9a9
 
 ## Testing
 ---
-#### W3C URL Validator
+#### W3C URL / HTML Validator
 
-#### W3C HTML Validator
+When I ran the URL site through the validator, it revealed 1 error. I also ran the html pages individually through the W3C HTML validator and they all revealed 1 error.
+
+<img src="readme-documents/testing/html-validator.jpg" width="60%" height="60%">
+
+I changed "section class" to "main class". This is because I didn't need an h2-h6 element. When I corrected the files, I ran it through the validator again and it came back with no errors.
 
 #### W3C CSS Validator
+
+I ran the style.css page individually through the W3C CSS validator:
+One error was found. Somewhere in the page I had an extra closing tab. 
+
+<img src="readme-documents/testing/css-validator.jpg" width="60%" height="60%">
+
+This has been corrected and passed through the W3C CSS validator again. The page passed without errors or warnings.
+
+
+
+
 
 
 #### Lighthouse
@@ -209,6 +224,15 @@ U can find information about cloning or downloading a repository [here](https://
 ---
 
 ### Content
+
+-	The instructions were written by me (Gwendolyn Jo).
+-	This navbar element is based on code components of from bootstrap. https://getbootstrap.com/docs/4.5/components/navbar/ 
+-	For the "instruction" button I used the "modal" code from [Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/), I modified it to only instructions.
+-	For the cards setup I've used  https://github.com/codesketch/memorygame/blob/master/video-11/index.html and modified it for this game.
+
+-	For the JavaScript part I used code from various sources;
+    https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/
+    https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
 ### Media
 •   The photographs I used for this memory game were obtained from [Pexels](https://www.pexels.com/) I’ve used photos from different photographers such as;
