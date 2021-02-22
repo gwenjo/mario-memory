@@ -1,6 +1,3 @@
-
-python3 -m http.server
-
 ## Two Pairs of Animals
 
 ---
