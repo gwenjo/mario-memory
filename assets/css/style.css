@@ -79,6 +79,11 @@ body {
     width: 100%;
 }
 
+.container {
+    border: #808080;
+}
+
+
 /*------------------Cards-----------*/
 /*--CSS code used and modified from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html--*/
 .memory-game {
@@ -190,12 +195,17 @@ body {
 }
 
 .reset {
-    border: none;
+    border: 3px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     margin-top: 5px;
     font-family: "Yusei Magic", sans-serif;
+    
+}
+.reset,
+.btn {
+    display: inline;
     font-size: 16px;
 }
 
