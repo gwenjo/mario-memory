@@ -14,9 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
-    <body>
-        <header>
-
+   
 <!-- Navbar Section -->
 <!-- This navbar element is based on code components of from bootstrap. https://getbootstrap.com/docs/4.5/components/navbar/ -->
 <a class="navbar-levels"></a>
@@ -25,6 +23,9 @@
             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <p><button type="button" class="btn btn-light btn-sm" data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button></p> 
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">EASY</a>
                         </li>
@@ -38,21 +39,21 @@
                 </div>     
     </nav>
 <!-- /.Navbar Section-->
-  
+ 
 <h1 class="title-text">-Two pairs of Animals-</h1>
 
+<body>
 <!-- Instruction Section -->
 <div class="instruction-container">
+    <h2 class="play">PLAY!</h2>
     <div class="row">
-        <p><button type="button" class="btn btn-light btn-sm"  
-        data-toggle="modal" data-target="#instructionModal">INSTRUCTION</button>   
-        <button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">RESET <i class="fa fa-repeat"></i></button></p>
+        <p><button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">RESET <i class="fa fa-repeat"></i></button></p>
     </div>
         <div class="timer">00:00</div>
 </div>
 <!-- /.Instruction Section -->
 
-</header>
+
 <!--Cards Section -->
 <!--I've used the card setup from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html and modified it for this game-->
 <div class="container">
@@ -131,5 +132,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- /.Scripts Section -->
-    </body>
+</body>
 </html>

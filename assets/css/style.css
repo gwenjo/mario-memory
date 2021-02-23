@@ -41,7 +41,7 @@ body {
 }
 
 .navbar {
-	padding: 10px 40px;
+	padding: 10px 20px;
 }
 
 .nav-link {
@@ -79,10 +79,13 @@ body {
     width: 100%;
 }
 
-.container {
-    border: #808080;
-}
 
+.h2,
+.play {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
 
 /*------------------Cards-----------*/
 /*--CSS code used and modified from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html--*/
@@ -132,7 +135,6 @@ body {
     transition: -webkit-transform 0.5s;
     -o-transition: transform 0.5s;
     transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
     }
 
 .memory-card:active {
@@ -160,7 +162,7 @@ body {
     background: #808080;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    border-radius: 15px;
+    border-radius: 25px;
     }
 
 .front {
@@ -195,17 +197,12 @@ body {
 }
 
 .reset {
-    border: 3px;
+    border: none;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     margin-top: 5px;
     font-family: "Yusei Magic", sans-serif;
-    
-}
-.reset,
-.btn {
-    display: inline;
     font-size: 16px;
 }
 
