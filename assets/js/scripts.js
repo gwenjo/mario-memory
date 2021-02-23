@@ -1,8 +1,5 @@
 //Code taken from https://github.com/taniarascia/memory/blob/master/js/script.original.js
 
-let firstGuess = "";
-let secondGuess = "";
-let previousTarget = null;
 let delay = 1300;
 let timerOn = true;
 
@@ -54,7 +51,8 @@ function unflipCards() {
         secondCard.classList.remove("flip");
 
       resetBoard();
-    }, 1300);
+    }, 
+    1300);
 }
 
 function resetBoard() {
@@ -76,7 +74,7 @@ cards.forEach((card) => card.addEventListener("click", flipCard));
 let time = 0;
 let timer;
 
-function startTimer() {
+function beginTimer() {
     timer = setInterval(function () {
     time++;
     minutes = ("0" + Math.floor(time / 60)).slice(-2);
@@ -86,11 +84,12 @@ function startTimer() {
 }
 
 let clicked = flipCard;
+//Timer begins when opening the page
 if (timerOn === true) {
-    startTimer();
+    beginTimer();
     timerOn = true;
 }
-
+//Reset the Game
 function reloadGame() {
   window.location.reload();
 }
