@@ -195,7 +195,7 @@ body {
     background: #808080;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    border-radius: 25px;
+    border-radius: 5px;
     }
 
 .front {
@@ -353,12 +353,65 @@ body {
     font-size: 16px;
 }
 
+#instruction-msg {
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    height: 350px;
+    width: 100%;
+    z-index: 10;
+    background-color: #965e83;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h1, .instruction-msg {
+    font-size: 14px;
+}
+
+.h2, .instruction-msg {
+    font-size: 13px;
+}
+
+#box-content {
+    width: 90%;
+    height: 1500%;
+    margin: 10px auto 10px auto;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgb(143, 103, 126);
+    
+
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
 .memory-game {
     height: 375px;
     width: 100%;
     padding-left: 0px;
     padding-right: 0;
 }
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    }
 
 .modal-title {
     width: 100%;

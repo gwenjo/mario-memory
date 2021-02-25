@@ -39,17 +39,28 @@
                 </div>     
     </nav>
 <!-- /.Navbar Section-->
- 
+<!-- Instruction Beginning Section -->
+<div id="instruction-msg">
+    <a><h1 class="game-title">Welcome to Two Pairs of Animals</h1><br />
+        <h2 class="instruction-title">INSTRUCTIONS</h2>
+            <p>You can start by turning the cards over. <br />
+                Remember the locations of the cards and make pairs of 2 of the same cards
+                You can increase the number of cards and the difficulty in the top left corner.                
+                By choosing EASY, MED and HARD. When u want to start over, press the Reset button.<br>
+                Good Luck!</p></a>
+                    <button class="btn btn-light btn-md" onclick="closeWindow()">Start the Game!</button>
+</div>
+<!-- /Instruction Beginning Section -->
+            
 <h1 class="title-text">-Two pairs of Animals-</h1>
 
 <body>
 <!-- Instruction Section -->
 <div class="instruction-container">
-    <h2 class="play">PLAY!</h2>
     <div class="row">
-        <p><button type="button" class="reset btn btn-light btn-sm" onclick="startGame()">RESET <i class="fa fa-repeat"></i></button></p>
+        <p><button type="button" class="reset btn btn-light btn-lg" onclick="resetGame()">RESET <i class="fa fa-repeat"></i></button></p>
     </div>
-        <div class="timer">00:00</div>
+        
 </div>
 <!-- /.Instruction Section -->
 
