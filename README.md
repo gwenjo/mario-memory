@@ -54,9 +54,20 @@ You will also find a pop-up button on each page with instructions of the game. N
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
 Links to the wireframes can be found here:
 
-*   [Desktop wireframe](readme-documents/wireframe-desktop.png)
-*   [Tablet wireframe](readme-documents/wireframe-tablet.png)
-*   [Mobile wireframe](readme-documents/wireframe-mobile.png)
+Desktop wireframes <br>
+<img src="readme-documents/wireframe-desktop.png" width="60%" height="60%">
+
+Desktop wireframe, for bigger image [Click here](readme-documents/wireframe-desktop.png)
+
+Tablet wireframe <br>
+<img src="readme-documents/wireframe-tablet.png" width="60%" height="60%">
+
+Tablet wireframe, for bigger image [Click here](readme-documents/wireframe-tablet.png)
+
+Mobile wireframe <br>
+<img src="readme-documents/wireframe-tablet.png" width="60%" height="60%">
+
+Mobile wireframe, for bigger image [Click here]readme-documents/wireframe-mobile.png)
 
 **Surface**
 
