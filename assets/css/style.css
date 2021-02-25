@@ -203,6 +203,15 @@ body {
             transform: rotateY(180deg);
 }
 
+/*------------------Cards Background colors if right match-----------*/
+.bg_yes {
+    background-color: rgb(134, 253, 134);
+}
+
+.bg_no {
+    background-color:rgb(248, 68, 68);
+}
+
 /*---------------Reset-----------*/
 
 .reset {
@@ -272,7 +281,6 @@ body {
     font-size: 14px;
 }
 }
-
 
 @media only screen and (max-width: 768px) {
     /*style rules for screens> 320px and ≤ 720px wide*/
@@ -558,6 +566,6 @@ body {
 	display : flex;
     font-size: 16px;
 }
-}
 
+}
 }

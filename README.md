@@ -1,5 +1,7 @@
 ## Two Pairs of Animals
 
+python3 -m http.server
+
 ---
 This is a simple memory game; in this memory game the goal is to make as many pairs of cards as possible by turning over cards with the same picture.
 
@@ -54,20 +56,20 @@ You will also find a pop-up button on each page with instructions of the game. N
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
 Links to the wireframes can be found here:
 
-Desktop wireframes <br>
+Desktop Wireframes <br>
 <img src="readme-documents/wireframe-desktop.png" width="60%" height="60%">
 
-Desktop wireframe, for bigger image [Click here](readme-documents/wireframe-desktop.png)
+Desktop Wireframe, for bigger image [Click here](readme-documents/wireframe-desktop.png)
 
-Tablet wireframe <br>
+Tablet Wireframe <br>
 <img src="readme-documents/wireframe-tablet.png" width="60%" height="60%">
 
-Tablet wireframe, for bigger image [Click here](readme-documents/wireframe-tablet.png)
+Tablet Wireframe, for bigger image [Click here](readme-documents/wireframe-tablet.png)
 
-Mobile wireframe <br>
+Mobile Wireframe <br>
 <img src="readme-documents/wireframe-tablet.png" width="60%" height="60%">
 
-Mobile wireframe, for bigger image [Click here]readme-documents/wireframe-mobile.png)
+Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
 **Surface**
 

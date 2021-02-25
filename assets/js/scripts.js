@@ -1,8 +1,3 @@
-//Code taken from https://github.com/taniarascia/memory/blob/master/js/script.original.js
-
-let delay = 1300;
-let timerOn = true;
-
 //Code taken from https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
 const cards = document.querySelectorAll(".memory-card");
@@ -14,6 +9,7 @@ let firstCard, secondCard;
 function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
+
     this.classList.add("flip");
 
     if (!hasFlippedCard) {
@@ -22,83 +18,90 @@ function flipCard() {
         return;
     }
 
+    hasFlippedCard = false;
     secondCard = this; //second card
 
-    checkForMatch(); //calls function to see if the cards match
+    //calls function to see if the cards match
+    checkIfMatch(); 
 }
 
-function checkForMatch() {
+function checkIfMatch() {
     if (firstCard.dataset.frame === secondCard.dataset.frame) {
-    disableCards();
+    match();
     return;
     }
 
     unflipCards();
 }
 
-function disableCards() {
+function match() {
     firstCard.removeEventListener("click", flipCard);
+    firstCard.classList.add('bg_yes');
+
     secondCard.removeEventListener("click", flipCard);
+    secondCard.classList.add('bg_yes');
 
   reset();
 }
 
 function unflipCards() {
-    lockBoard = true; //prevents other clicks 
-    setTimeout( //used to keep the cards visiable for short time
-    () => {
+    //prevents other clicks 
+    lockBoard = true; 
+    firstCard.classList.add('bg_no');
+    secondCard.classList.add('bg_no');
+
+    //used to keep the cards visiable for short time
+    setTimeout(() => {
         firstCard.classList.remove("flip");
+        firstCard.classList.remove('bg_no');
 
         secondCard.classList.remove("flip");
+        secondCard.classList.remove('bg_no');
 
       reset();
     }, 
     1300);
 }
 
-
+//shuffle cards
 (function shuffle() {
-  cards.forEach((card) => {
-    var ramdomPos = Math.floor(Math.random() * 12);
-    card.style.order = ramdomPos;
+    cards.forEach((card) => {
+    let randomPosition = Math.floor(Math.random() * 14);
+    card.style.order = randomPosition;
   });
 })();
 
 
-// Reset the game, new game
+//Reset the game/ Play again
 function reset() {
     setTimeout(() => {
         [hasFlippedCard, lockBoard] = [false, false];
         [firstCard, secondCard] = [null, null];
-        card.forEach(cardReset => cardReset.classList.remove('flip'));
-        card.forEach(cardBg => cardBg.classList.remove('bg_green'));
-        // Remove the red background in that case when the user start a new game
-        // while a not matched pair is stil not flipped back.  
-        card.forEach(cardBg => cardBg.classList.remove('bg_red'));
-        shuffle();
-        card.forEach(cards => cards.addEventListener('click', flipOver));
-        }, 800);
-        // For the case the player don't close the game finished window.
-        closeWindow();  
-    }
 
+        card.forEach(cardReset => cardReset.classList.remove('flip'));
+        card.forEach(cardBg => cardBg.classList.remove('bg_yes'));
+        
+        card.forEach(cardBg => cardBg.classList.remove('bg_no'));
+        shuffle();
+        card.forEach(cards => cards.addEventListener('click', flipCard));
+        }, 900); 
+    }
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
 //Reset the Game
 function reloadGame() {
-  window.location.reload();
+    window.location.reload();
 }
 
 let resetGame = function myFunction() {
-  reloadGame();
+    reloadGame();
 };
 
-const info = document.getElementById('instruction-msg');
+const instruc = document.getElementById('instruction-msg');
 
 //Closing window
 function closeWindow() {
-    info.style.display = 'none';
-    done.style.display = 'none';
-    gameLock = false;
+    instruc.style.display = 'none';
+    lockBoard = false;
 }    
