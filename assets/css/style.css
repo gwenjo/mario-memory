@@ -79,12 +79,24 @@ body {
     width: 100%;
 }
 
-
-.h2,
-.play {
+/*---------------instruction-----------*/
+#instruction-msg {
+    font-size: 1.2rem;
     text-align: center;
+    position: fixed;
+    margin: auto;
+    height: 400px;
     width: 100%;
-    font-size: 16px;
+    z-index: 10;
+    background-color: #965e83;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#instruction-msg a {
+    color: #fafafa;
+    text-decoration: none;
 }
 /*---------------Box Content-----------*/
 
@@ -191,31 +203,7 @@ body {
             transform: rotateY(180deg);
 }
 
-/*---------------Timer-----------*/
-/* styles.css code taken from https://github.com/karzuin/MS2/blob/master/assets/css/style.css and modified*/
-
-.timer {
-    font-family: "Yusei Magic", sans-serif;
-    text-align: center;
-    margin: 0 auto;
-    display: flex;
-    position: relative;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: 50px;
-    padding: 5px;
-    padding-top: 0;
-    padding-bottom: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    font-size: 16px;
-}
+/*---------------Reset-----------*/
 
 .reset {
     border: none;
