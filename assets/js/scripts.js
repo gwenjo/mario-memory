@@ -71,7 +71,6 @@ function unflipCards() {
   });
 })();
 
-
 //Reset the game/ Play again
 function reset() {
     setTimeout(() => {
@@ -100,7 +99,7 @@ let resetGame = function myFunction() {
 
 const instruc = document.getElementById('instruction-msg');
 
-//Closing window
+//Close instruction
 function closeWindow() {
     instruc.style.display = 'none';
     lockBoard = false;
