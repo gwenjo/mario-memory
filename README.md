@@ -27,14 +27,14 @@ Good Luck!
 **User Story**
 
 User’s goal:
-* As a user, I want to play an easy and simple game 
-* As a user, I want an easy navigate website
-* As a user, I want to have different levels to better my skills
-* As a user, I want to see a timer on the page, so I can see how much time I have been playing.
+* As a user, I want to play an easy and simple game. 
+* As a user, I want an easy navigate website.
+* As a user, I want to have different levels to better my skills.
+* As a user, I want to see if I have the correct card match.
 
 Site owner’s Goal:
 * As the site owner, I want the user to have an easily accessible site.
-* As the site owner, I want the user to have fun with this game
+* As the site owner, I want the user to have fun with this game.
 
 **Strategy**
 
@@ -67,7 +67,7 @@ Tablet Wireframe <br>
 Tablet Wireframe, for bigger image [Click here](readme-documents/wireframe-tablet.png)
 
 Mobile Wireframe <br>
-<img src="readme-documents/wireframe-tablet.png" width="60%" height="60%">
+<img src="readme-documents/wireframe-mobile.png" width="60%" height="60%">
 
 Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
