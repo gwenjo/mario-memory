@@ -73,19 +73,20 @@ function unflipCards() {
 
 //Reset the game/ Play again
 function reset() {
+    
     setTimeout(() => {
         [hasFlippedCard, lockBoard] = [false, false];
         [firstCard, secondCard] = [null, null];
 
-        card.forEach(cardReset => cardReset.classList.remove('flip'));
-        card.forEach(cardBg => cardBg.classList.remove('bg_yes'));
-        
-        card.forEach(cardBg => cardBg.classList.remove('bg_no'));
+        cards.forEach(cardBg => cardBg.classList.remove('bg_yes'));
+        cards.forEach(cardBg => cardBg.classList.remove('bg_no'));
+
         shuffle();
-        card.forEach(cards => cards.addEventListener('click', flipCard));
+
+        cards.forEach(cards => cards.addEventListener('click', flipCard));
         }, 900); 
     }
-
+    
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
 //Reset the Game
