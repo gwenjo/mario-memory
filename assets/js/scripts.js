@@ -62,6 +62,7 @@ function unflipCards() {
     }, 
     1300);
 }
+//change this!!!
 
 //shuffle cards
 (function shuffle() {
@@ -86,7 +87,7 @@ function reset() {
         cards.forEach(cards => cards.addEventListener('click', flipCard));
         }, 900); 
     }
-    
+
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
 //Reset the Game
