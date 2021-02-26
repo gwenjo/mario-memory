@@ -104,7 +104,7 @@ body {
 
 #box-content {
     box-sizing: content-box; 
-    width: 65%;
+    width: 85%;
     height: 100%;
     margin: 10px auto 10px auto;
     border: 1px solid rgba(255,255,255,0.2);
@@ -390,7 +390,7 @@ body {
 
 #box-content {
     width: 90%;
-    height: 1500%;
+    height: 80%;
     margin: 10px auto 10px auto;
     border: 1px solid rgba(255,255,255,0.2);
     background: rgb(143, 103, 126);
