@@ -103,8 +103,9 @@ body {
 /*-----------------Box Content-------------*/
 
 #box-content {
-    width: 75%;
-    height: 200%;
+    box-sizing: content-box; 
+    width: 65%;
+    height: 100%;
     margin: 10px auto 10px auto;
     border: 1px solid rgba(255,255,255,0.2);
     background: rgb(143, 103, 126);
