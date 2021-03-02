@@ -7,19 +7,18 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-
+   
     <link rel="shortcut icon" href="assets/favicon.ico/parrot.ico" type="image/x-icon">
     <link rel="icon" href="assets/favicon.ico/parrot.ico" type="image/x-icon">
-    
     <title>| Memory Game |</title>
     
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
    <body>
-
+       
 <!-- Navbar Section -->
 <!-- This navbar element is based on code components of from bootstrap. https://getbootstrap.com/docs/4.5/components/navbar/ -->
-<a class="navbar-levels"></a>
+
     <nav class="navbar menu navbar-expand-sm navbar-light bg-custom"> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -42,23 +41,23 @@
 <h1 class="title-text">-Two pairs of Animals-</h1>
 
 <!-- Instruction Beginning Section -->
-<div id="instruction-msg">
-    <a><h1 class="game-title">Welcome to Two Pairs of Animals</h1><br />
+<div id="instruction-msg"><br /><br />
+    <h1 class="game-title">Welcome to Two Pairs of Animals</h1><br />
         <h2 class="instruction-title">INSTRUCTIONS</h2>
             <p>You can start by turning the cards over. <br />
                 Remember the locations of the cards and make pairs of 2 of the same cards
                 You can increase the number of cards and the difficulty in the top left corner.                
                 By choosing the levels EASY, MED and HARD. When u want to start over, press the Reset button.<br>
-                Good Luck!</p></a>
+                Good Luck!</p>
                     <button class="btn btn-light btn-md" onclick="closeWindow()">Start the Game!</button>
 </div>
 <!-- /Instruction Beginning Section -->
-
+            
 <!-- Instruction Section -->
 <div class="instruction-container">
     <div class="row">
         <p><button type="button" class="reset btn btn-light btn-lg" onclick="resetGame()">RESET <i class="fa fa-repeat"></i></button></p>
-    </div>
+    </div>   
 </div>
 <!-- /.Instruction Section -->
 
@@ -68,75 +67,75 @@
 <div class="container">
     <main class="memory-game game-hard">
         <div class="memory-card" data-frame="whale">
-            <img class="front" src="assets/images/whale.jpg" alt="Whale" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/whale.jpeg" alt="Whale" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="whale">
-            <img class="front" src="assets/images/whale.jpg" alt="Whale" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/whale.jpeg" alt="Whale" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
 
         <div class="memory-card" data-frame="reindeer">
-            <img class="front" src="assets/images/reindeer.jpg" alt="Reindeer" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/reindeer.jpeg" alt="Reindeer" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="reindeer">
-            <img class="front" src="assets/images/reindeer.jpg" alt="Reindeer" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/reindeer.jpeg" alt="Reindeer" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
 
         <div class="memory-card" data-frame="penguin">
-            <img class="front" src="assets/images/penguin.jpg" alt="Penguin" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/penguin.jpeg" alt="Penguin" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="penguin">
-            <img class="front" src="assets/images/penguin.jpg" alt="Penguin" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/penguin.jpeg" alt="Penguin" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
     
         <div class="memory-card" data-frame="parrot">
-            <img class="front" src="assets/images/parrot.jpg" alt="Parrot" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/parrot.jpeg" alt="Parrot" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="parrot">
-            <img class="front" src="assets/images/parrot.jpg" alt="Parrot" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/parrot.jpeg" alt="Parrot" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
 
         <div class="memory-card" data-frame="panda">
-            <img class="front" src="assets/images/panda.jpg" alt="Panda" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/panda.jpeg" alt="Panda" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="panda">
-            <img class="front" src="assets/images/panda.jpg" alt="Panda" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/panda.jpeg" alt="Panda" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
 
         <div class="memory-card" data-frame="leopard">
-            <img class="front" src="assets/images/leopard.jpg" alt="Leopard" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/leopard.jpeg" alt="Leopard" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="leopard">
-            <img class="front" src="assets/images/leopard.jpg" alt="Leopard" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/leopard.jpeg" alt="Leopard" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
 
         <div class="memory-card" data-frame="koala">
-            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/koala.jpeg" alt="Koala" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="koala">
-            <img class="front" src="assets/images/koala.jpg" alt="Koala" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/koala.jpeg" alt="Koala" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
     
         <div class="memory-card" data-frame="fox">
-            <img class="front" src="assets/images/fox.jpg" alt="Fox" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/fox.jpeg" alt="Fox" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
         <div class="memory-card" data-frame="fox">
-            <img class="front" src="assets/images/fox.jpg" alt="Fox" />
-            <img class="back" src="assets/images/feather.jpg" alt="Feather" />
+            <img class="front" src="assets/images/fox.jpeg" alt="Fox" />
+            <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
 
     </main>
@@ -144,12 +143,12 @@
 </div>
 
 <!--Footer Section -->
-<footer class="footer-text col-12"><p>GHC Jo|2021</p></footer>
+<footer class="text col-12"><p>GHC Jo|2021</p></footer>
 <!-- /.Footer Section -->
 
 <!-- Script Section -->
 <script src="assets/js/scripts.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- /.Scripts Section -->
 </body>
