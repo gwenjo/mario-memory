@@ -259,7 +259,37 @@ body {
 	display : flex;
     font-size: 14px;
 }
+
+#instruction-msg {
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    height: 350px;
+    width: 100%;
+}
+
+.h1, .instruction-msg {
+    font-size: 14px;
+}
+
+.h2, .instruction-msg {
+    font-size: 13px;
+}
+
+.memory-game {
+    height: 660px;
+    width: 100%;
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    background: #808080
     }
+}
 
 @media only screen and (max-width: 768px) {
     /*style rules for screens> 320px and ≤ 720px wide*/
@@ -285,6 +315,23 @@ body {
     padding-bottom: 40px;
 	display : flex;
     font-size: 14px;
+}
+
+#instruction-msg {
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    height: 350px;
+    width: 100%;
+   
+}
+
+.h1, .instruction-msg {
+    font-size: 14px;
+}
+
+.h2, .instruction-msg {
+    font-size: 13px;
 }
     }
 
@@ -331,7 +378,6 @@ body {
 #instruction-msg {
     font-size: 12px;
     text-align: center;
-    position: fixed;
     margin: auto;
     height: 350px;
     width: 100%;
