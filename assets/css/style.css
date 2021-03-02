@@ -28,17 +28,6 @@ body {
 
 /*------------------navbar------------------------*/
 
-.navbar-levels {
-	float: left;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	margin-left: 5px;
-	margin-top: 0;
-	font-size: 1.7rem;
-	line-height: 20px;
-    background-color: transparent;
-    font-size: 16px;
-}
 
 .navbar {
 	padding: 10px 20px;
@@ -69,35 +58,32 @@ body {
 
 /*-----------------Modal------------*/
 
-.modal-title {
-    width: 100%;
-    text-align: center;
-}
-
-.modal-body {
-    text-align: center;
-    width: 100%;
-}
-
 /*------------Instruction Message-----------*/
 
 #instruction-msg {
     font-size: 1.2rem;
     text-align: center;
     position: fixed;
-    margin: auto;
+    margin: 40px;
     height: 400px;
-    width: 100%;
+    width: 95%;
     z-index: 10;
     background-color: #965e83;
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    color: #fafafa;
 }
 
-#instruction-msg a {
+.game-title{
     color: #fafafa;
     text-decoration: none;
+    font-size: 20px;
+}
+
+.instruction-title {
+    color: #fafafa;
+    font-size: 18px;
 }
 
 /*-----------------Box Content-------------*/
@@ -450,38 +436,8 @@ body {
     }
 
 @media only screen and (max-width: 414px) {
-	/* style rules for screens ≤ 320px wide */
+    /* style rules for screens ≤ 320px wide */
     
-.navbar-levels {
-	float: left;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	margin-left: 5px;
-	margin-top: 0;
-	font-size: 1.7rem;
-	line-height: 20px;
-    background-color: transparent;
-    font-size: 12px;
-}
-
-.navbar {
-	padding: 10px 15px;
-}
-
-.nav-link {
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-
-.nav-item-list {
-	-webkit-box-pack: end;
-	-ms-flex-pack: end;
-	justify-content: flex-end;
-	font-size: 1.05rem;
-	text-transform: uppercase;
-	background-color: transparent;
-}
-
 .h3, .title-text {
     text-align: center;
     letter-spacing: 2px;
@@ -501,19 +457,22 @@ body {
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    color: #fafafa;
 }
 
 .h1, .instruction-msg {
     font-size: 14px;
+    color: #fafafa;
 }
 
 .h2, .instruction-msg {
     font-size: 13px;
+    color: #fafafa;
 }
 
 #box-content {
     width: 90%;
-    height: 1500%;
+    height: 80%;
     margin: 10px auto 10px auto;
     border: 1px solid rgba(255,255,255,0.2);
     background: rgb(143, 103, 126);
@@ -526,10 +485,9 @@ body {
 }
 
 .memory-game {
-    height: 375px;
+    height: 280px;
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0;
+    
 }
 
 .memory-card {
@@ -545,28 +503,6 @@ body {
     transition: -webkit-transform 0.5s;
     -o-transition: transform 0.5s;
     transition: transform 0.5s;
-    }
-
-.modal-title {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
 }
 
-.modal-body {
-    text-align: center;
-    width: 100%;
-    font-size: 12px;
 }
-
-.footer-text {
-    text-align: center;
-    height: 10px;
-    width: 100px;
-    margin : 0 auto;
-    padding: 10px 0;
-    padding-bottom: 40px;
-	display : flex;
-    font-size: 16px;
-}
-    }
