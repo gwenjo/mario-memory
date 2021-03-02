@@ -61,7 +61,6 @@ body {
 /*------------Instruction Message-----------*/
 
 #instruction-msg {
-    font-size: 1.2rem;
     text-align: center;
     position: fixed;
     margin: 40px;
@@ -235,7 +234,7 @@ body {
 
 /*style rules for screens larger than 1224px wide*/
 
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1024px) {
     /*style rules for screens> 768px and ≤ 1024px wide*/
     
 .h3, .title-text {

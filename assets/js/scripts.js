@@ -3,11 +3,11 @@
 const cards = document.querySelectorAll(".memory-card");
 
 let hasFlippedCard = false;
-let lockBoard = false;
+let gameBoard = false;
 let firstCard, secondCard;
     
 function flipCard() {
-    if (lockBoard) return;
+    if (gameBoard) return;
     if (this === firstCard) return;
 
     this.classList.add("flip");
@@ -46,7 +46,7 @@ function match() {
 
 function unflipCards() {
     //prevents other clicks 
-    lockBoard = true; 
+    gameBoard = true; 
     firstCard.classList.add('bg_no');
     secondCard.classList.add('bg_no');
 
@@ -62,7 +62,6 @@ function unflipCards() {
     }, 
     1300);
 }
-//change this!!!
 
 //shuffle cards
 (function shuffle() {
@@ -76,21 +75,19 @@ function unflipCards() {
 function reset() {
     
     setTimeout(() => {
-        [hasFlippedCard, lockBoard] = [false, false];
+        [hasFlippedCard, gameBoard] = [false, false];
         [firstCard, secondCard] = [null, null];
 
         cards.forEach(cardBg => cardBg.classList.remove('bg_yes'));
         cards.forEach(cardBg => cardBg.classList.remove('bg_no'));
 
-        shuffle();
-
         cards.forEach(cards => cards.addEventListener('click', flipCard));
-        }, 900); 
+        }, 700); 
     }
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
-//Reset the Game
+//Reload the Game
 function reloadGame() {
     window.location.reload();
 }
@@ -104,5 +101,5 @@ const instruc = document.getElementById('instruction-msg');
 //Close instruction
 function closeWindow() {
     instruc.style.display = 'none';
-    lockBoard = false;
+    gameBoard = false;
 }    
