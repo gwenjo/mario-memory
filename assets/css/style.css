@@ -62,10 +62,10 @@ body {
 
 #instruction-msg {
     text-align: center;
-    position: fixed;
+    position: absolute;
     margin: 40px;
-    height: 400px;
-    width: 95%;
+    height: 350px;
+    width: 92%;
     z-index: 10;
     background-color: #965e83;
     border-radius: 25px;
@@ -249,18 +249,6 @@ body {
     width: 100%;
 }
 
-.modal-title {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-}
-
-.modal-body {
-    text-align: center;
-    width: 100%;
-    font-size: 14px;
-}
-
 .footer-text {
     text-align: center;
     height: 30px;
@@ -286,18 +274,6 @@ body {
 .memory-game {
     height: 510px;
     width: 100%;
-}
-
-.modal-title {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-}
-
-.modal-body {
-    text-align: center;
-    width: 100%;
-    font-size: 14px;
 }
 
 .footer-text {
@@ -422,17 +398,6 @@ body {
     border-radius: 5px;
     }
 
-.modal-title {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-}
-
-.modal-body {
-    text-align: center;
-    width: 100%;
-    font-size: 12px;
-}
 
 .footer-text {
     text-align: center;
