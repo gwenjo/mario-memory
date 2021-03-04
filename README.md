@@ -189,15 +189,39 @@ One error was found. Somewhere in the page I had an extra closing tab.
 
 This has been corrected and passed through the W3C CSS validator again. The page passed without errors or warnings.
 
+**User Story:**
+* As a user, I want to play an easy and simple game when I have a break from work/ school.
+
+<img src="readme-documents/testing/.jpg" width="60%" height="60%">
+
+* As a user, I want an easy navigation website so that I can play a game quickly.
+
+<img src="readme-documents/testing/.jpg" width="60%" height="60%">
+
+* As a user, I want to have different levels in the game so that I can improve my memory skills.
+
+<img src="readme-documents/testing/dropdown-mobile.jpg" width="60%" height="60%">
+
+* As a user, when the cards are turned over, I want to see if I have the correct card.
+
+**Site owner’s Goal:**
+* As the site owner, I want the user to have an easily accessible site.
 
 
-##### Bugs
+* As the site owner, I want the user to have fun with this game.
 
+
+##### Further Changes
+ 
 -   In the beginning the layout was different I had an instruction button with a modal-popup next to it a reset button and a timer underneath. After consultation with my mentor, I adjusted my layout with the comments that were given.
+
+-   I removed the timer function and applied the colors red and green to the turned cards in its place. Red for when the match is wrong and green for when it is a match.
 
 <img src="readme-documents/testing/timer-mobile.jpg" width="60%" height="60%">
 
 -   I removed the popup modal button for the instruction and turned it into an instruction message. This message will appear on your screen every time you reset the game. You can easily click away the message every time you want to start a (new) game.
+
+-    my mentor told me my instruction message was too clear and it looked more like an error message. So I changed the message to a pink color. I chose pink because it goes well with gray.
 
 <img src="readme-documents/testing/instruction-popup.jpg" width="60%" height="60%">
 
