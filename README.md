@@ -3,56 +3,49 @@
 python3 -m http.server
 
 ---
-This is a simple memory game; in this memory game the goal is to make as many pairs of cards as possible by turning over cards with the same picture.
+This is a simple memory game; in this memory game the goal is to make as many pairs of cards by turning over cards with the same picture.
 
 To make the game more difficult you can choose a different level. You can choose from the following levels:
-*   Easy    - 2x4
-*   Med     - 3x4
-*   Hard    - 4x4
+*   Easy    - 2 x 4
+*   Med     - 3 x 4
+*   Hard    - 4 x 4
 
 The images I use are of different animals.
 
 Instructions of the game:
-You can start by turning the cards over. 
 Remember the locations of the cards and make pairs of 2 of the same cards
-You can increase the number of cards and the difficulty in the top left corner.                
-By choosing EASY, MED and HARD. 
-Good Luck!
+You can increase the number of cards and the difficulty in the top left corner. By choosing the levels EASY, MED and HARD. When u want to start over, press the Reset button. You can start by turning the cards over. Good Luck!
 
-[live site Memory](https://gwenjo.github.io/memory-game/) 
+[live site Two Pairs of Animals](https://gwenjo.github.io/memory-game/) 
 
 ## User Experience (UX)
 ---
 <img src="readme-documents/mockup.jpg">
-**User Story**
 
-User’s goal:
-* As a user, I want to play an easy and simple game. 
-* As a user, I want an easy navigate website.
-* As a user, I want to have different levels to better my skills.
-* As a user, I want to see if I have the correct card match.
+**User Story:**
+* As a user, I want to play an easy and simple game when I have a break from work.
+* As a user, I want an easy navigation website so that I can play a game quickly.
+* As a user, I want to have different levels in the game so that I can improve my memory skills.
+* As a user, when the cards are turned over, I want to see if I have the correct card.
 
-Site owner’s Goal:
+**Site owner’s Goal:**
 * As the site owner, I want the user to have an easily accessible site.
 * As the site owner, I want the user to have fun with this game.
 
 **Strategy**
-
-I wanted to make a simple and above all easy game.
-You can play it at home but also when you are on the road. The game is fun for everyone whether they are young or old.
+The goal is to build a simple and easy to navigate game with a welcome / instruction message with different game levels.
+The game is fun for everyone whether they are young or old.
 
 **Scope**
-
 The goal for me was that I have a user-friendly, simple and gentle on the eyes game. With simple colors such as black, gray and white.
 
 **Structure**
-
 The structure of this game is divided over three pages, on the homepage, where the game starts right with the level of EASY.
 On all pages, at the top left corner you can find the different levels that can be played. Consisting of EASY-MED and -HARD.
-You will also find a pop-up button on each page with instructions of the game. Next to this button is the Reset button. This allows you to shuffle the cards again and start a new game.
+Everytime when u reset the game there will be a instruction message of the game.
+The reset button allows you to shuffle the cards again and start a new game.
 
 **Skeleton**
-
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
 Links to the wireframes can be found here:
 
@@ -72,16 +65,18 @@ Mobile Wireframe <br>
 Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
 **Surface**
-
-For the images I used random animal pictures made by different photographers.
+The photographs for this memory game are from [Pexels](https://www.pexels.com/)and made by different photographers.
 
 ## Features
 
+###### When opening the page:
+When opening the page you will find an instruction message of the game. When closing  the window you can immediately start the game.
+
 ###### Navigationbar:
-The navigation bar used here is about choosing different levels in the game. You can choose from EASY, MED, HARD.
+The navigation bar used here is to choose different levels in the game. You can choose from EASY, MED, HARD.
 
 ###### Header:
-All pages contain an instruction button to explain the game and a reset button to restart the game.
+All pages contain a reset button to restart the game.
 
 ###### Footer:
 In the footer you will find my initials and this year 2021
@@ -97,7 +92,6 @@ For the HARD page, the rows of the deck consist of 4 x 4 cards
 
 
 #### Features Left to Implement
-
 Due to lack of time, I didn't get around to adding the following features to this game. But I hope to implement the following points in the near future.
 
 *   Submitting a name: This way you can add your name to the game and compete with your friends.
@@ -159,11 +153,9 @@ For the correct contrast of my website I used webaim to check the color.
 
 
 ### Typography
-
 For the typography I have used the Yusei Magic font with a backup font of Sans-serif. It is a nice and easy to read font. The font is also easy to read on smaller devices.
 
 ### Color
-
 I used the Adobe color scheme to choose the colors for my game.
 
 <img src="readme-documents/adobe-color.jpg" width="60%" height="60%">
@@ -178,7 +170,6 @@ Background: #a9a9a9
 ## Testing
 ---
 #### W3C URL / HTML Validator
-
 When I ran the URL site through the validator, it revealed 1 error. I also ran the html pages individually through the W3C HTML validator and they all revealed 1 error.
 
 <img src="readme-documents/testing/html-validator.jpg" width="60%" height="60%">
@@ -186,7 +177,6 @@ When I ran the URL site through the validator, it revealed 1 error. I also ran t
 I changed "section class" to "main class". This is because I didn't need an h2-h6 element. When I corrected the files, I ran it through the validator again and it came back with no errors.
 
 #### W3C CSS Validator
-
 I ran the style.css page individually through the W3C CSS validator:
 One error was found. Somewhere in the page I had an extra closing tab. 
 
@@ -249,9 +239,9 @@ U can find information about cloning or downloading a repository [here](https://
     https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
 ### Media
-•   The photographs I used for this memory game were obtained from [Pexels](https://www.pexels.com/) I’ve used photos from different photographers such as;
+The photographs I used for this memory game were obtained from [Pexels](https://www.pexels.com/) I’ve used photos from different photographers such as;
 
-Front Face cards
+Front cards
 -   Ethan Brooke (koala.jpg)
 -   Elianne Dipp (whale.jpg)
 -   Laura the Explaura (panda.jpg)
@@ -264,11 +254,10 @@ Front Face cards
 -   Magda Ehlers (giraffe.jpg)
 -   James Frid (parrot.jpg)
 
-Back Face cards
+Back cards
 -   Takeshi Arai (feather.jpg)
 
 ### Acknowledgements
-
 - I want to thank my mentor Sinead O'Brien for always giving me good advice. I am so sad that you stopping mentoring for a while.
 - Special thanks to the Slack community. If I had any questions, I could always trust that my questions were answered.
 - I want to thank my friends and family who have viewed my website multiple times and have given me good criticism on my game.
