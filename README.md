@@ -33,19 +33,23 @@ You can increase the number of cards and the difficulty in the top left corner. 
 * As the site owner, I want the user to have fun with this game.
 
 **Strategy**
+
 The goal is to build a simple and easy to navigate game with a welcome / instruction message with different game levels.
 The game is fun for everyone whether they are young or old.
 
 **Scope**
+
 The goal for me was that I have a user-friendly, simple and gentle on the eyes game. With simple colors such as black, gray and white.
 
 **Structure**
+
 The structure of this game is divided over three pages, on the homepage, where the game starts right with the level of EASY.
 On all pages, at the top left corner you can find the different levels that can be played. Consisting of EASY-MED and -HARD.
 Everytime when u reset the game there will be a instruction message of the game.
 The reset button allows you to shuffle the cards again and start a new game.
 
 **Skeleton**
+
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
 Links to the wireframes can be found here:
 
@@ -65,6 +69,7 @@ Mobile Wireframe <br>
 Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
 **Surface**
+
 The photographs for this memory game are from [Pexels](https://www.pexels.com/)and made by different photographers.
 
 ## Features
@@ -186,13 +191,33 @@ This has been corrected and passed through the W3C CSS validator again. The page
 
 
 
+##### Bugs
 
+-   In the beginning the layout was different I had an instruction button with a modal-popup next to it a reset button and a timer underneath. After consultation with my mentor, I adjusted my layout with the comments that were given.
+
+<img src="readme-documents/testing/timer-mobile.jpg" width="60%" height="60%">
+
+-   I removed the popup modal button for the instruction and turned it into an instruction message. This message will appear on your screen every time you reset the game. You can easily click away the message every time you want to start a (new) game.
+
+<img src="readme-documents/testing/instruction-popup.jpg" width="60%" height="60%">
 
 
 #### Lighthouse
 
+These are the percentages of the lighthouse response, they have been tested for both the desktop version and the mobile version.
+
+##### Desktop
 <img src="readme-documents/lighthouse-desktop.jpg" width="50%" height="50%">
+
+
+##### Mobile
 <img src="readme-documents/lighthouse-mobile.jpg" width="50%" height="50%">
+
+The response for the mobile light house is just below 90%
+
+I am aware that the mobile version of the lighthouse does not have a top score and hope to change this in the future. I adjusted the photos, but the response from the lighthouse for the mobile version seems to be the same.
+
+I am more than happy with the score for the desktop version of the lighthouse.
 
 
 ## Deployment
