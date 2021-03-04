@@ -23,7 +23,7 @@ You can increase the number of cards and the difficulty in the top left corner. 
 <img src="readme-documents/mockup.jpg">
 
 **User Story:**
-* As a user, I want to play an easy and simple game when I have a break from work.
+* As a user, I want to play an easy and simple game when I have a break from work/ school.
 * As a user, I want an easy navigation website so that I can play a game quickly.
 * As a user, I want to have different levels in the game so that I can improve my memory skills.
 * As a user, when the cards are turned over, I want to see if I have the correct card.
