@@ -12,7 +12,7 @@
     <link rel="icon" href="assets/favicon.ico/penguin.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <title>| Memory Game |</title>
+    <title>| Two Pairs of Animals |</title>
     
 </head>
    <body>
@@ -42,31 +42,31 @@
 <h1 class="title-text">-Two pairs of Animals-</h1>
 
 <!-- Instruction Beginning Section -->
-<div id="instruction-msg"><br /><br />
-    <h1 class="game-title">Welcome</h1><br />
-        <h2 class="instruction-title">INSTRUCTIONS:</h2>
-            <p>
-                Remember the locations of the cards and make pairs of 2 of the same cards.<br />
-                You can increase the number of cards and the difficulty in the top left corner. <br />               
-                By choosing the levels EASY, MED and HARD. When u want to start over, press the Reset button.<br>
-                You can start by turning the cards over. <br />
-                Good Luck!</p>
-                    <button class="btn btn-light btn-md" onclick="closeWindow()">Start the Game!</button>
-</div>
+    <div id="instruction-msg"><br />
+        <h1 class="game-title">-WELCOME-</h1><br />
+            <h2 class="instruction-title">INSTRUCTIONS:</h2>
+                <p>
+                    Remember the locations of the cards and make pairs of 2 of the same cards.<br />
+                    You can increase the number of cards and the difficulty in the top left corner. <br />               
+                    By choosing the levels EASY, MED and HARD. When u want to start over, press the Reset button.<br>
+                    You can start by turning the cards over. <br />
+                    Good Luck!</p>
+                        <button class="btn btn-light btn-md" onclick="closeWindow()">Start the Game!</button>
+    </div>
 <!-- /Instruction Beginning Section -->
             
-<!-- Instruction Section -->
+<!-- Reset Section -->
 <div class="instruction-container">
     <div class="row">
         <p><button type="button" class="reset btn btn-light btn-lg" onclick="resetGame()">RESET <i class="fa fa-repeat"></i></button></p>
     </div>   
 </div>
-<!-- /.Instruction Section -->
+<!-- /.Reset Section -->
 
 <!--Cards Section -->
 <!--I've used the card setup from https://github.com/code-sketch/memory-game/blob/master/video-11/index.html and modified it for this game-->
 <div id="box-content"><br />
-<div class="container">
+    <div class="container">
     <main class="memory-game">
         <div class="memory-card" data-frame="alpaca">
             <img class="front" src="assets/images/alpaca.jpeg" alt="Alpaca" />
@@ -122,7 +122,7 @@
             <img class="back" src="assets/images/feather.jpeg" alt="Feather" />
         </div>
     </main>
-</div><br/>
+    </div><br/>
 </div>
 
 <!--Footer Section -->
