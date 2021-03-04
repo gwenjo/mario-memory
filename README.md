@@ -230,13 +230,12 @@ U can find information about cloning or downloading a repository [here](https://
 ### Content
 
 -	The instructions were written by me (Gwendolyn Jo).
--	This navbar element is based on code components of from bootstrap. https://getbootstrap.com/docs/4.5/components/navbar/ 
--	For the "instruction" button I used the "modal" code from [Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/), I modified it to only instructions.
--	For the cards setup I've used  https://github.com/codesketch/memorygame/blob/master/video-11/index.html and modified it for this game.
+-   This navbar element is based on code components of from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
+-   For the beginning instruction message, “window closing” I used [W3schools](https://www.w3schools.com/jsref/met_win_close.asp). 
+-   For the card setup I used code and adapted it for this game from [Marina Ferrera](https://marina-ferreira.github.io/tutorials/js/memory-game/). 
+-   For the background change, colors (red / green) I used [Stackoverflow](https://stackoverflow.com/questions/32206223/onclick-change-background-color-with-javascript).
+-   For several JavaScript parts I used code from [Tania Rascia](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) and [Marina Ferrera](https://marina-ferreira.github.io/tutorials/js/memory-game/).
 
--	For the JavaScript part I used code from various sources;
-    https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/
-    https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
 ### Media
 The photographs I used for this memory game were obtained from [Pexels](https://www.pexels.com/) I’ve used photos from different photographers such as;
