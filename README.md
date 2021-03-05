@@ -68,6 +68,8 @@ Mobile Wireframe <br>
 
 Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
+note: There are some changes in the layout. The result is not quite the same as the examples of the wireframes
+
 **Surface**
 
 The photographs for this memory game are from [Pexels](https://www.pexels.com/)and made by different photographers.
@@ -210,7 +212,10 @@ This has been corrected and passed through the W3C CSS validator again. The page
 
 * As the site owner, I want the user to have fun with this game.
 
-#### Further testing of the game
+
+
+
+### Further testing of the game
 
 The website has been tested on multiple browsers such as:
 - Safari (IOS) - the game works as it should in Safari
