@@ -210,6 +210,66 @@ This has been corrected and passed through the W3C CSS validator again. The page
 
 * As the site owner, I want the user to have fun with this game.
 
+#### Further testing of the game
+
+The website has been tested on multiple browsers such as:
+- Safari (IOS) - the game works as it should in Safari
+- Google Chrome - the game works as it should in Google Chrome
+
+- Mozilla Firefox - the game does not work quite as it should. When the cards are turned over, you will not see the red (no match) or green (match) colors of the cards. The game itself works fine.
+
+The website has also been tested on various devices such as:
+-   Desktop (15-17 inch)
+-   Laptop (13 inch Macbook air)
+-   Ipad mini
+-   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a Samsung
+
+All pages and navigation links work properly and have been checked individually.
+-   Easy page
+-   Med page
+-   Hard page
+
+**Home/ Easy Page**
+
+*Instruction message *
+1. Go to the home page on a desktop, you will find an instruction message of the game. Below the message is a button that says “Start the game! When you click the button, the message will disappear and you can start the game. The button has been tested and works on all the above mentioned devices
+
+*Navigation Bar: *
+1.  You will see the navigation bar on the left. When you resize the screen to a smaller size, the menu will automatically adjust to a dropdown icon. When you click on it, the menu opens as a dropdown. Reading from top to bottom: EASY, MED, HARD.
+2.  The functionality of the navbar has been tested, all links of the navigation are responsive. The pages have all been tested separately and work properly.
+
+*Reset button :*
+1. Below the title of the game “Two Pairs of Animals” you will find the Reset button. When pressing this button, the cards will be shuffled and start a new game.
+2. Each time you press the Reset button, the game will restart and you will also see the instruction message appear back on the screen again. The button has been tested and works on all the above mentioned devices.
+
+ 
+The game:
+1. On this page you will find 2 rows of 4 cards. 
+2. You can start by turning the cards over. 
+3. Remember the locations of the cards and make pairs of 2 of the same cards
+4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see photo below)
+
+<img src="readme-documents/testing/no-match.jpg" width="60%" height="60%">
+
+5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see photo below)
+
+<img src="readme-documents/testing/match.jpg" width="60%" height="60%">
+
+6. When all cards are turned over, the images remain on the page. (see image below). 
+
+<img src="readme-documents/testing/all-cards.jpg" width="60%" height="60%">
+
+7. The game is finished when all card combinations have been made.
+
+6. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+
+*Footer:* 
+1.  In the footer you will find my initials and the year in which this game was made.
+
+
+
+
+
 
 ##### Further Changes
  
