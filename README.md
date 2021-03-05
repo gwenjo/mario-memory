@@ -192,27 +192,41 @@ One error was found. Somewhere in the page I had an extra closing tab.
 This has been corrected and passed through the W3C CSS validator again. The page passed without errors or warnings.
 
 **User Story:**
-* As a user, I want to play an easy and simple game when I have a break from work/ school.
 
-<img src="readme-documents/testing/.jpg" width="60%" height="60%">
+As a user, I want to play an easy and simple game when I have a break from work/ school.
 
-* As a user, I want an easy navigation website so that I can play a game quickly.
+-   This game is a simple three level memory game. You will see the instructions when opening the page and start the game by clicking the "Start the Game!" button
 
-<img src="readme-documents/testing/.jpg" width="60%" height="60%">
+<img src="readme-documents/testing/instruction-message.jpg" width="40%" height="60%">
 
-* As a user, I want to have different levels in the game so that I can improve my memory skills.
+As a user, I want an easy navigation website so that I can play a game quickly.
 
+- A simple navigation bar is displayed in the left corner of the page.
+
+- On a desktop, when opening the page and an instruction message will appear. If you press "Start the game", you can start the game immediately. A simple navigation bar is also displayed in the left corner of the page.
+
+<img src="readme-documents/testing/easy.jpg" width="30%" height="25%">
+<img src="readme-documents/testing/med.jpg" width="30%" height="60%">
+<img src="readme-documents/testing/hard.jpg" width="30%" height="60%">
+
+As a user, I want to have different levels in the game so that I can improve my memory skills.
+
+-   On a mobile device, you will see a drop-down menu with the levels: EASY, MED and HARD.
 <img src="readme-documents/testing/dropdown-mobile.jpg" width="60%" height="60%">
 
-* As a user, when the cards are turned over, I want to see if I have the correct card.
+As a user, when the cards are turned over, I want to see if I have the correct card.
+
+- If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. When all cards are turned over, the images remain on the page.  
 
 **Site owner’s Goal:**
-* As the site owner, I want the user to have an easily accessible site.
 
+As the site owner, I want the user to have an easily accessible site.
 
-* As the site owner, I want the user to have fun with this game.
+- The website is easy going and everything speaks for itself. There is little but enough text to explain how to play the game.
 
+As the site owner, I want the user to have fun with this game.
 
+-   by adding simple and different levels to this game, I hope the user will have fun with the game
 
 
 ### Further testing of the game
