@@ -72,7 +72,7 @@ note: There are some changes in the layout. The result is not quite the same as 
 
 **Surface**
 
-The photographs for this memory game are from [Pexels](https://www.pexels.com/)and made by different photographers.
+The photographs for this memory game are from [Pexels](https://www.pexels.com/)  and made by different photographers.
 
 ## Features
 
