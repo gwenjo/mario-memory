@@ -173,6 +173,11 @@ Body text: black
 
 Background: #a9a9a9
 
+After talking to my mentor she gave me some advice about adding more color to the game.  
+
+Instruction message: #965e83;
+
+Content-box behind the game: rgb(143, 103, 126);
 
 ## Testing
 ---
@@ -240,7 +245,7 @@ The website has also been tested on various devices such as:
 -   Desktop (15-17 inch)
 -   Laptop (13 inch Macbook air)
 -   Ipad mini
--   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a Samsung
+-   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a SamsungS20.
 
 All pages and navigation links work properly and have been checked individually.
 -   Easy page
