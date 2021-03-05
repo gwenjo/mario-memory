@@ -6,9 +6,9 @@ python3 -m http.server
 This is a simple memory game; in this memory game the goal is to make as many pairs of cards by turning over cards with the same picture.
 
 To make the game more difficult you can choose a different level. You can choose from the following levels:
-*   Easy    - 2 x 4
-*   Med     - 3 x 4
-*   Hard    - 4 x 4
+*   Easy    2 x 4
+*   Med     3 x 4
+*   Hard    4 x 4
 
 The images I use are of different animals.
 
@@ -234,7 +234,6 @@ As the site owner, I want the user to have fun with this game.
 The website has been tested on multiple browsers such as:
 - Safari (IOS) - the game works as it should in Safari
 - Google Chrome - the game works as it should in Google Chrome
-
 - Mozilla Firefox - the game does not work quite as it should. When the cards are turned over, you will not see the red (no match) or green (match) colors of the cards. The game itself works fine.
 
 The website has also been tested on various devices such as:
@@ -250,19 +249,19 @@ All pages and navigation links work properly and have been checked individually.
 
 **Home/ Easy Page**
 
-*Instruction message *
-1. Go to the home page on a desktop, you will find an instruction message of the game. Below the message is a button that says “Start the game! When you click the button, the message will disappear and you can start the game. The button has been tested and works on all the above mentioned devices
+**Instruction message:**
+1. Go to the home page on a desktop, you will find an instruction message of the game. Below the message is a button that says “Start the game! When you click the button, the message will disappear and you can start the game. The button has been tested and works on all te above mentioned devices
 
-*Navigation Bar: *
+**Navigation Bar:**
 1.  You will see the navigation bar on the left. When you resize the screen to a smaller size, the menu will automatically adjust to a dropdown icon. When you click on it, the menu opens as a dropdown. Reading from top to bottom: EASY, MED, HARD.
 2.  The functionality of the navbar has been tested, all links of the navigation are responsive. The pages have all been tested separately and work properly.
 
-*Reset button :*
+**Reset button:**
 1. Below the title of the game “Two Pairs of Animals” you will find the Reset button. When pressing this button, the cards will be shuffled and start a new game.
 2. Each time you press the Reset button, the game will restart and you will also see the instruction message appear back on the screen again. The button has been tested and works on all the above mentioned devices.
 
  
-The game:
+**The game:**
 1. On this page you will find 2 rows of 4 cards. 
 2. You can start by turning the cards over. 
 3. Remember the locations of the cards and make pairs of 2 of the same cards
@@ -282,7 +281,7 @@ The game:
 
 6. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
 
-*Footer:* 
+**Footer:**
 1.  In the footer you will find my initials and the year in which this game was made.
 
 
