@@ -331,9 +331,15 @@ The game:
 *Footer:* 
 1.  In the footer you will find my initials and the year in which this game was made.
 
+##### JSHint
 
+When I run my code through the JSHint tool nothing strange came up. The tool did indicate that there were two unused variables identified.
 
+<img src="readme-documents/testing/jshint.jpg" width="60%" height="60%">
 
+resetGame – this is for the reset button
+
+closeWindow – this is for the instruction window to close
 
 ##### Further Changes
  
