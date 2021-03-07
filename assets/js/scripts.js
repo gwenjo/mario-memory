@@ -1,7 +1,9 @@
 //Code taken from https://github.com/code-sketch/memory-game/blob/master/video-11/scripts.js
 
+//html element
 const cards = document.querySelectorAll(".memory-card");
 
+//Memory card
 let hasFlippedCard = false;
 let gameBoard = false;
 let firstCard, secondCard;
@@ -14,14 +16,14 @@ function flipCard() {
 
     if (!hasFlippedCard) {
         hasFlippedCard = true;
-        firstCard = this; //first card
+        firstCard = this; //The first card clicked
         return;
     }
 
     hasFlippedCard = false;
-    secondCard = this; //second card
+    secondCard = this; //The second card clicked
 
-    //calls function to see if the cards match
+    //Calls function to see if the cards match
     checkIfMatch(); 
 }
 
@@ -34,6 +36,7 @@ function checkIfMatch() {
     unflipCards();
 }
 
+//Matching cards
 function match() {
     firstCard.removeEventListener("click", flipCard);
     firstCard.classList.add('bg_yes');
@@ -45,12 +48,12 @@ function match() {
 }
 
 function unflipCards() {
-    //prevents other clicks 
+    //Prevents other clicks 
     gameBoard = true; 
     firstCard.classList.add('bg_no');
     secondCard.classList.add('bg_no');
 
-    //used to keep the cards visiable for short time
+    //Used to keep the cards visiable for short time
     setTimeout(() => {
         firstCard.classList.remove("flip");
         firstCard.classList.remove('bg_no');
@@ -63,7 +66,7 @@ function unflipCards() {
     1300);
 }
 
-//shuffle cards
+//Shuffle the cards
 (function shuffle() {
     cards.forEach((card) => {
     let randomPosition = Math.floor(Math.random() * 14);
@@ -96,9 +99,10 @@ let resetGame = function myFunction() {
     reloadGame();
 };
 
+//html element
 const instruc = document.getElementById('instruction-msg');
 
-//Close instruction
+//Close Instruction window
 function closeWindow() {
     instruc.style.display = 'none';
     gameBoard = false;
