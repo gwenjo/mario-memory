@@ -268,13 +268,16 @@ All pages and navigation links work properly and have been checked individually.
  
 **The game:**
 1. On this page you will find 2 rows of 4 cards. 
+
+<img src="readme-documents/testing/desktop-easy.jpg" width="60%" height="60%">
+
 2. You can start by turning the cards over. 
 3. Remember the locations of the cards and make pairs of 2 of the same cards
-4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see photo below)
+4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image below)
 
 <img src="readme-documents/testing/no-match.jpg" width="60%" height="60%">
 
-5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see photo below)
+5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image below)
 
 <img src="readme-documents/testing/match.jpg" width="60%" height="60%">
 
@@ -289,6 +292,48 @@ All pages and navigation links work properly and have been checked individually.
 **Footer:**
 1.  In the footer you will find my initials and the year in which this game was made.
 
+**Med Page**
+
+The Instruction message, Navigation Bar and Reset button is the same as the home/EASY page
+
+The game:
+1. On this page you will find 3 rows of 4 cards. 
+
+<img src="readme-documents/testing/desktop-med.jpg" width="60%" height="60%">
+
+2. You can start by turning the cards over. 
+3. Remember the locations of the cards and make pairs of 2 of the same cards
+4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image from game explanations home/easy page)
+5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image from game explanations home/easy page)
+6. When all cards are turned over, the images remain on the page. (see image from game explanations home/easy page). 
+7. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+8. The game is finished when all card combinations have been made.
+9. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+
+*Footer:* 
+1.  In the footer you will find my initials and the year in which this game was made.
+
+**Hard Page**
+
+Instruction message, Navigation Bar and Reset button
+
+The game:
+1. On this page you will find 4 rows of 4 cards. 
+
+<img src="readme-documents/testing/desktop-hard.jpg" width="60%" height="60%">
+
+2. You can start by turning the cards over. 
+3. Remember the locations of the cards and make pairs of 2 of the same cards
+4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image from game explanations home/easy page)
+5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image from game explanations home/easy page)
+6. When all cards are turned over, the images remain on the page. (see image from game explanations home/easy page). 
+
+7. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+8. The game is finished when all card combinations have been made.
+9. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+
+*Footer:* 
+1.  In the footer you will find my initials and the year in which this game was made.
 
 
 
