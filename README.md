@@ -11,8 +11,7 @@ To make the game more difficult you can choose a different level. You can choose
 The images I use are of different animals.
 
 Instructions of the game:
-Remember the locations of the cards and make pairs of 2 of the same cards
-You can increase the number of cards and the difficulty in the top left corner. By choosing the levels EASY, MED and HARD. When u want to start over, press the Reset button. You can start by turning the cards over. Good Luck!
+Remember the locations of the cards and make pairs of 2 of the same cards. You can increase the number of cards and the difficulty in the top left corner. By choosing the levels EASY, MED and HARD. When u want to start over, press the Reset button. You can start by turning the cards over.
 
 [live site Two Pairs of Animals](https://gwenjo.github.io/memory-game/) 
 
@@ -32,12 +31,12 @@ You can increase the number of cards and the difficulty in the top left corner. 
 
 **Strategy**
 
-The goal is to build a simple and easy to navigate game with a welcome / instruction message with different game levels.
+The goal is to build a simple and easy to navigate game with a welcome / instruction message and different game levels.
 The game is fun for everyone whether they are young or old.
 
 **Scope**
 
-The goal for me was that I have a user-friendly, simple and gentle on the eyes game. With simple colors such as black, gray and white.
+The goal for me was that I have a user-friendly, simple and gentle on the eyes game. With simple colors such as black, gray and white. While building the game I added the color soft pink.
 
 **Structure**
 
@@ -63,11 +62,11 @@ Mobile Wireframe <br>
 
 Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
-note: There are some changes in the layout. The result is not quite the same as the examples of the wireframes.
+note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
 
 **Surface**
 
-The photographs for this memory game are from [Pexels](https://www.pexels.com/)  and made by different photographers.
+The photographs for this memory game are from [Pexels](https://www.pexels.com/  and made by different photographers.
 
 ## Features
 
@@ -130,6 +129,7 @@ Due to lack of time, I didn't get around to adding the following features to thi
 -  For the color selection I have used adobe color. [Click here](readme-documents/adobe-color.jpg) to see the color pallet.
 
 **[W3School](https://www.w3schools.com/)**
+The closing window for the instruction message I used w3schools.
 
 **[Bootstrap](https://getbootstrap.com/)**
 -	For the navbar I used Bootstrap.
@@ -150,10 +150,10 @@ Due to lack of time, I didn't get around to adding the following features to thi
 -   I used dillenger to make my README file more organized.
 
 **[Wave Webaim](https://wave.webaim.org/)**
-For the correct contrast of my website I used webaim to check the color.
+-   For the correct contrast of my website I used webaim to check the color.
 
 **[JSHint](https://jshint.com/)**
-For detecting errors and potential problems I run my code trough jshint.
+-   For detecting errors and potential problems I run my code trough jshint.
 
 ### Typography
 For the typography I have used the Yusei Magic font with a backup font of Sans-serif. It is a nice and easy to read font. The font is also easy to read on smaller devices.
