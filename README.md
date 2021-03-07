@@ -1,7 +1,5 @@
 ## Two Pairs of Animals
 
-python3 -m http.server
-
 ---
 This is a simple memory game; in this memory game the goal is to make as many pairs of cards by turning over cards with the same picture.
 
@@ -43,10 +41,7 @@ The goal for me was that I have a user-friendly, simple and gentle on the eyes g
 
 **Structure**
 
-The structure of this game is divided over three pages, on the homepage, where the game starts right with the level of EASY.
-On all pages, at the top left corner you can find the different levels that can be played. Consisting of EASY-MED and -HARD.
-Everytime when u reset the game there will be a instruction message of the game.
-The reset button allows you to shuffle the cards again and start a new game.
+The structure of this game is divided over three pages, on the homepage, where the game starts right with the level of EASY. On all pages, at the top left corner you can find the different levels that can be played. Consisting of EASY-MED and -HARD. Everytime when u reset the game there will be an instruction message of the game. The reset button allows you to shuffle the cards again and start a new game.
 
 **Skeleton**
 
@@ -68,7 +63,7 @@ Mobile Wireframe <br>
 
 Mobile Wireframe, for bigger image [Click here](readme-documents/wireframe-mobile.png)
 
-note: There are some changes in the layout. The result is not quite the same as the examples of the wireframes
+note: There are some changes in the layout. The result is not quite the same as the examples of the wireframes.
 
 **Surface**
 
@@ -77,7 +72,7 @@ The photographs for this memory game are from [Pexels](https://www.pexels.com/) 
 ## Features
 
 ###### When opening the page:
-When opening the page you will find an instruction message of the game. When closing  the window you can immediately start the game.
+When opening the page, you will find an instruction message of the game. When closing the window, you can immediately start the game.
 
 ###### Navigationbar:
 The navigation bar used here is to choose different levels in the game. You can choose from EASY, MED, HARD.
@@ -86,16 +81,16 @@ The navigation bar used here is to choose different levels in the game. You can 
 All pages contain a reset button to restart the game.
 
 ###### Footer:
-In the footer you will find my initials and this year 2021
+In the footer you will find my initials and this year 2021.
 
 ###### Home/ EASY- Page:
-For the EASY page, the rows of the deck consist of 2 x 4 cards
+For the EASY page, the rows of the deck consist of 2 x 4 cards.
 
 ###### MED-Page:
-For the MED page, the rows of the deck consist of 3 x 4 cards
+For the MED page, the rows of the deck consist of 3 x 4 cards.
 
 ###### Hard-Page:
-For the HARD page, the rows of the deck consist of 4 x 4 cards
+For the HARD page, the rows of the deck consist of 4 x 4 cards.
 
 
 #### Features Left to Implement
@@ -113,7 +108,7 @@ Due to lack of time, I didn't get around to adding the following features to thi
 * JavaScript - I have used JavaScript to rotate the cards in the deck and run a timer.
 * Github – to create a repository.
 * Gitpod – for working in my repository.
-* Bootstrap – I have used bootstrap for my popup modal.
+* Bootstrap – I have used bootstrap for navbar.
 
 
 ### Tools used
@@ -135,10 +130,9 @@ Due to lack of time, I didn't get around to adding the following features to thi
 -  For the color selection I have used adobe color. [Click here](readme-documents/adobe-color.jpg) to see the color pallet.
 
 **[W3School](https://www.w3schools.com/)**
--	For the navbar I used W3schools.
 
 **[Bootstrap](https://getbootstrap.com/)**
--	For the popup modal I used Bootstrap.
+-	For the navbar I used Bootstrap.
 
 **[Css Beautifier](https://www.freeformatter.com/css-beautifier.html)**
 -   I used this online tool for formatting my CSS code.
@@ -158,6 +152,8 @@ Due to lack of time, I didn't get around to adding the following features to thi
 **[Wave Webaim](https://wave.webaim.org/)**
 For the correct contrast of my website I used webaim to check the color.
 
+**[JSHint](https://jshint.com/)**
+For detecting errors and potential problems I run my code trough jshint.
 
 ### Typography
 For the typography I have used the Yusei Magic font with a backup font of Sans-serif. It is a nice and easy to read font. The font is also easy to read on smaller devices.
@@ -173,7 +169,7 @@ Body text: black
 
 Background: #a9a9a9
 
-After talking to my mentor she gave me some advice about adding more color to the game.  
+After talking to my mentor, she gave me some advice about adding more color to the game.  
 
 Instruction message: #965e83;
 
