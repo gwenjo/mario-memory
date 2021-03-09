@@ -129,7 +129,7 @@ Due to lack of time, I didn't get around to adding the following features to thi
 -  For the color selection I have used adobe color. [Click here](readme-documents/adobe-color.jpg) to see the color pallet.
 
 **[W3School](https://www.w3schools.com/)**
-The closing window for the instruction message I used w3schools.
+-   The closing window for the instruction message I used w3schools.
 
 **[Bootstrap](https://getbootstrap.com/)**
 -	For the navbar I used Bootstrap.
@@ -227,7 +227,7 @@ As the site owner, I want the user to have an easily accessible site.
 
 As the site owner, I want the user to have fun with this game.
 
--   by adding simple and different levels to this game, I hope the user will have fun with the game
+-   By adding simple and different levels to this game, I hope the user will have fun with the game
 
 
 ### Further testing of the game
@@ -241,7 +241,7 @@ The website has also been tested on various devices such as:
 -   Desktop (15-17 inch)
 -   Laptop (13 inch Macbook air)
 -   Ipad mini
--   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a SamsungS20.
+-   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a Samsung S20.
 
 All pages and navigation links work properly and have been checked individually.
 -   Easy page
@@ -251,7 +251,7 @@ All pages and navigation links work properly and have been checked individually.
 **Home/ Easy Page**
 
 **Instruction message:**
-1. Go to the home page on a desktop, you will find an instruction message of the game. Below the message is a button that says “Start the game! When you click the button, the message will disappear and you can start the game. The button has been tested and works on all te above mentioned devices
+1. Go to the home page on a desktop, you will find an instruction message of the game. Below the message is a button that says “Start the game! When you click the button, the message will disappear and you can start the game. The button has been tested and works on all the above-mentioned devices
 
 **Navigation Bar:**
 1.  You will see the navigation bar on the left. When you resize the screen to a smaller size, the menu will automatically adjust to a dropdown icon. When you click on it, the menu opens as a dropdown. Reading from top to bottom: EASY, MED, HARD.
@@ -259,7 +259,7 @@ All pages and navigation links work properly and have been checked individually.
 
 **Reset button:**
 1. Below the title of the game “Two Pairs of Animals” you will find the Reset button. When pressing this button, the cards will be shuffled and start a new game.
-2. Each time you press the Reset button, the game will restart and you will also see the instruction message appear back on the screen again. The button has been tested and works on all the above mentioned devices.
+2. Each time you press the Reset button, the game will restart and you will also see the instruction message appear back on the screen again. The button has been tested and works on all the above-mentioned devices.
 
  
 **The game:**
@@ -269,21 +269,21 @@ All pages and navigation links work properly and have been checked individually.
 
 2. You can start by turning the cards over. 
 3. Remember the locations of the cards and make pairs of 2 of the same cards
-4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image below)
+4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image below) This has been tested and works on all the above-mentioned devices.
 
 <img src="readme-documents/testing/no-match.jpg" width="60%" height="60%">
 
-5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image below)
+5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image below) This has been tested and works on all the above-mentioned devices.
 
 <img src="readme-documents/testing/match.jpg" width="60%" height="60%">
 
-6. When all cards are turned over, the images remain on the page. (see image below). 
+6. When all cards are turned over, the images remain on the page. (see image below). This has been tested and works on all the above-mentioned devices.
 
 <img src="readme-documents/testing/all-cards.jpg" width="60%" height="60%">
 
 7. The game is finished when all card combinations have been made.
 
-6. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+6. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. This will be a bit easier, if you play on a bigger screen.
 
 **Footer:**
 1.  In the footer you will find my initials and the year in which this game was made.
@@ -302,9 +302,8 @@ The game:
 4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image from game explanations home/easy page)
 5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image from game explanations home/easy page)
 6. When all cards are turned over, the images remain on the page. (see image from game explanations home/easy page). 
-7. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
 8. The game is finished when all card combinations have been made.
-9. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+9. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. This will be a bit easier, if you play on a bigger screen.
 
 *Footer:* 
 1.  In the footer you will find my initials and the year in which this game was made.
@@ -323,10 +322,8 @@ The game:
 4. If there is a wrong match, the cards will turn red for a short time and the cards will be turned over. (see image from game explanations home/easy page)
 5. If there is a good match, the cards turn green for a moment and the cards remain face up on the photo side. (see image from game explanations home/easy page)
 6. When all cards are turned over, the images remain on the page. (see image from game explanations home/easy page). 
-
-7. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
-8. The game is finished when all card combinations have been made.
-9. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. When you play on a larger screen, this will be a little easier.
+7. The game is finished when all card combinations have been made.
+8. For usability and responsiveness on a mobile, the cards have been modified so that they can also be played on smaller devices. However, it is not really ideal to play this game on a smaller screen. This will be a bit easier, if you play on a bigger screen.
 
 *Footer:* 
 1.  In the footer you will find my initials and the year in which this game was made.
@@ -337,9 +334,9 @@ When I run my code through the JSHint tool nothing strange came up. The tool did
 
 <img src="readme-documents/testing/jshint.jpg" width="60%" height="60%">
 
-resetGame – this is for the reset button
+resetGame – this is for the reset button to work.
 
-closeWindow – this is for the instruction window to close
+closeWindow – this is for the instruction window to close.
 
 ##### Further Changes
  
@@ -351,14 +348,15 @@ closeWindow – this is for the instruction window to close
 
 -   I removed the popup modal button for the instruction and turned it into an instruction message. This message will appear on your screen every time you reset the game. You can easily click away the message every time you want to start a (new) game.
 
--    my mentor told me my instruction message was too clear and it looked more like an error message. So I changed the message to a pink color. I chose pink because it goes well with gray.
+-    My mentor told me my instruction message was too clear and it looked more like an error message. So, I changed the message to a pink color. I chose pink because it goes well with gray.
 
 <img src="readme-documents/testing/instruction-popup.jpg" width="60%" height="60%">
 
 
+
 #### Lighthouse
 
-These are the percentages of the lighthouse response, they have been tested for both the desktop version and the mobile version.
+These are the percentages of the lighthouse response; they have been tested for both the desktop version and the mobile version.
 
 ##### Desktop
 <img src="readme-documents/lighthouse-desktop.jpg" width="50%" height="50%">
